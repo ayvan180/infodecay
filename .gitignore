@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.streamlit/
+*.log
+.DS_Store
+.vscode/
+.idea/
+bits_b64.txt
+check.py
+list_models.py

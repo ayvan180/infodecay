@@ -1,0 +1,2452 @@
+[
+  {
+    "question": "What government position was held by the woman who portrayed Corliss Archer in the film Kiss and Tell?",
+    "gold_answer": "Chief of Protocol",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499725, Requested 624. Please try again in 1m0.3072s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499725, Requested 814. Please try again in 1m33.1392s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499724, Requested 815. Please try again in 1m33.1392s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499723, Requested 815. Please try again in 1m32.9664s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499722, Requested 815. Please try again in 1m32.7936s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499722, Requested 815. Please try again in 1m32.7936s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "What science fantasy young adult series, told in first person, has a set of companion books narrating the stories of enslaved worlds and alien species?",
+    "gold_answer": "Animorphs",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499693, Requested 666. Please try again in 1m2.0352s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499690, Requested 772. Please try again in 1m19.8336s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499690, Requested 773. Please try again in 1m20.0064s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499688, Requested 773. Please try again in 1m19.6608s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499687, Requested 773. Please try again in 1m19.488s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499685, Requested 772. Please try again in 1m18.9696s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "The director of the romantic comedy \"Big Stone Gap\" is based in what New York city?",
+    "gold_answer": "Greenwich Village, New York City",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "Not found in context.",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499932, Requested 617. Please try again in 1m34.8672s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499931, Requested 746. Please try again in 1m56.985599999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499931, Requested 751. Please try again in 1m57.8496s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499930, Requested 746. Please try again in 1m56.8128s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499929, Requested 746. Please try again in 1m56.64s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "2014 S/S is the debut album of a South Korean boy group that was formed by who?",
+    "gold_answer": "YG Entertainment",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499898, Requested 637. Please try again in 1m32.448s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499897, Requested 796. Please try again in 1m59.7504s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499897, Requested 797. Please try again in 1m59.9232s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499896, Requested 797. Please try again in 1m59.7504s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499895, Requested 797. Please try again in 1m59.5776s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499895, Requested 797. Please try again in 1m59.5776s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "Who was known by his stage name Aladin and helped organizations improve their performance as a consultant?",
+    "gold_answer": "Eenasul Fateh",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499866, Requested 717. Please try again in 1m40.742399999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499864, Requested 801. Please try again in 1m54.912s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499863, Requested 795. Please try again in 1m53.7024s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499862, Requested 796. Please try again in 1m53.7024s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499861, Requested 796. Please try again in 1m53.5296s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499861, Requested 796. Please try again in 1m53.5296s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "The arena where the Lewiston Maineiacs played their home games can seat how many people?",
+    "gold_answer": "3,677 seated",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499803, Requested 608. Please try again in 1m11.0208s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499803, Requested 775. Please try again in 1m39.8784s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499802, Requested 775. Please try again in 1m39.7056s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499802, Requested 775. Please try again in 1m39.7056s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499801, Requested 775. Please try again in 1m39.5328s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499801, Requested 775. Please try again in 1m39.5328s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "Who is older, Annie Morton or Terry Richardson?",
+    "gold_answer": "Terry Richardson",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499756, Requested 672. Please try again in 1m13.9584s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499755, Requested 793. Please try again in 1m34.6944s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499755, Requested 793. Please try again in 1m34.6944s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499754, Requested 793. Please try again in 1m34.521599999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499753, Requested 798. Please try again in 1m35.212799999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499753, Requested 798. Please try again in 1m35.212799999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "What is the name of the fight song of the university whose main campus is in Lawrence, Kansas and whose branch campuses are in the Kansas City metropolitan area?",
+    "gold_answer": "Kansas Song",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "Kansas Song (We\u2019re From Kansas) is the fight song of the University of Kansas, which has its main campus in Lawrence and branch campuses in the Kansas City metropolitan area.",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499894, Requested 680. Please try again in 1m39.187199999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499893, Requested 796. Please try again in 1m59.0592s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499891, Requested 791. Please try again in 1m57.8496s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499891, Requested 791. Please try again in 1m57.8496s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499890, Requested 791. Please try again in 1m57.6768s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": 0.6436477874005573,
+    "r2": 0.6036005025444311,
+    "hi_rate": [
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "What screenwriter with credits for \"Evolution\" co-wrote a film starring Nicolas Cage and T\u00e9a Leoni?",
+    "gold_answer": "David Weissman",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499862, Requested 602. Please try again in 1m20.1792s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499860, Requested 802. Please try again in 1m54.3936s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499859, Requested 802. Please try again in 1m54.2208s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499858, Requested 802. Please try again in 1m54.048s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499857, Requested 801. Please try again in 1m53.7024s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499856, Requested 802. Please try again in 1m53.7024s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "What year did Guns N Roses perform a promo for a movie starring Arnold Schwarzenegger as a former New York Police detective?",
+    "gold_answer": "1999",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499831, Requested 642. Please try again in 1m21.7344s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499831, Requested 801. Please try again in 1m49.2096s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499829, Requested 801. Please try again in 1m48.864s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499827, Requested 800. Please try again in 1m48.345599999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499825, Requested 806. Please try again in 1m49.0368s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499824, Requested 801. Please try again in 1m48s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "The football manager who recruited David Beckham managed Manchester United during what timeframe?",
+    "gold_answer": "from 1986 to 2013",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499799, Requested 696. Please try again in 1m25.536s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499798, Requested 889. Please try again in 1m58.7136s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499797, Requested 890. Please try again in 1m58.7136s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499796, Requested 890. Please try again in 1m58.540799999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499796, Requested 895. Please try again in 1m59.4048s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499795, Requested 890. Please try again in 1m58.368s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "Brown State Fishing Lake is in a country that has a population of how many inhabitants ?",
+    "gold_answer": "9,984",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499762, Requested 593. Please try again in 1m1.344s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499761, Requested 724. Please try again in 1m23.808s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499759, Requested 725. Please try again in 1m23.6352s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499758, Requested 726. Please try again in 1m23.6352s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499757, Requested 726. Please try again in 1m23.4624s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499757, Requested 726. Please try again in 1m23.4624s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "The Vermont Catamounts men's soccer team currently competes in a conference that was formerly known as what from 1988 to 1996?",
+    "gold_answer": "the North Atlantic Conference",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "The Vermont Catamounts men's soccer team competes in the America East Conference, which was formerly known as the North Atlantic Conference from 1988 to 1996.",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499880, Requested 670. Please try again in 1m35.04s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499879, Requested 809. Please try again in 1m58.8864s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499878, Requested 811. Please try again in 1m59.0592s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499877, Requested 811. Please try again in 1m58.8864s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499876, Requested 811. Please try again in 1m58.7136s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": 0.6436477874005573,
+    "r2": 0.6036005025444311,
+    "hi_rate": [
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "Roger O. Egeberg was Assistant Secretary for Health and Scientific Affairs during the administration of a president that served during what years?",
+    "gold_answer": "1969 until 1974",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499848, Requested 726. Please try again in 1m39.187199999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499847, Requested 853. Please try again in 2m0.96s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499846, Requested 845. Please try again in 1m59.4048s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499845, Requested 848. Please try again in 1m59.7504s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499844, Requested 848. Please try again in 1m59.5776s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499844, Requested 848. Please try again in 1m59.5776s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "Which writer was from England, Henry Roth or Robert Erskine Childers?",
+    "gold_answer": "Robert Erskine Childers DSC",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499818, Requested 587. Please try again in 1m9.984s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499817, Requested 797. Please try again in 1m46.0992s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499816, Requested 799. Please try again in 1m46.271999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499815, Requested 804. Please try again in 1m46.9632s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499813, Requested 799. Please try again in 1m45.7536s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499810, Requested 799. Please try again in 1m45.235199999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "Which other Mexican Formula One race car driver has held the podium besides the Force India driver born in 1990?",
+    "gold_answer": "Pedro Rodr\u00edguez",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499786, Requested 618. Please try again in 1m9.8112s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499786, Requested 787. Please try again in 1m39.0144s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499785, Requested 788. Please try again in 1m39.0144s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499784, Requested 788. Please try again in 1m38.8416s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499783, Requested 788. Please try again in 1m38.6688s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499781, Requested 788. Please try again in 1m38.323199999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "This singer of A Rather Blustery Day also voiced what hedgehog?",
+    "gold_answer": "Sonic",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "Not found in context.",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499999, Requested 597. Please try again in 1m42.9888s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499997, Requested 905. Please try again in 2m35.8656s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499995, Requested 905. Please try again in 2m35.519999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499994, Requested 910. Please try again in 2m36.2112s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499992, Requested 905. Please try again in 2m35.0016s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "Aside from the Apple Remote, what other device can control the program Apple Remote was originally designed to interact with?",
+    "gold_answer": "keyboard function keys",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499965, Requested 625. Please try again in 1m41.952s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499962, Requested 803. Please try again in 2m12.191999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499960, Requested 790. Please try again in 2m9.6s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499959, Requested 800. Please try again in 2m11.1552s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499957, Requested 804. Please try again in 2m11.5008s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499956, Requested 804. Please try again in 2m11.328s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "Which performance act has a higher instrument to person ratio, Badly Drawn Boy or Wolf Alice?",
+    "gold_answer": "Badly Drawn Boy",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499932, Requested 633. Please try again in 1m37.631999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499931, Requested 818. Please try again in 2m9.4272s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499931, Requested 812. Please try again in 2m8.3904s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499929, Requested 812. Please try again in 2m8.0448s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499927, Requested 793. Please try again in 2m4.416s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499926, Requested 811. Please try again in 2m7.3536s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "What was the father of Kasper Schmeichel voted to be by the IFFHS in 1992?",
+    "gold_answer": "World's Best Goalkeeper",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499897, Requested 686. Please try again in 1m40.742399999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499896, Requested 801. Please try again in 2m0.4416s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499896, Requested 776. Please try again in 1m56.121599999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499892, Requested 801. Please try again in 1m59.7504s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499892, Requested 796. Please try again in 1m58.8864s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499891, Requested 796. Please try again in 1m58.7136s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "Who was the writer of These Boots Are Made for Walkin' and who died in 2007?",
+    "gold_answer": "Barton Lee Hazlewood",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499867, Requested 598. Please try again in 1m20.352s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499865, Requested 793. Please try again in 1m53.7024s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499863, Requested 794. Please try again in 1m53.5296s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499861, Requested 794. Please try again in 1m53.184s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499857, Requested 774. Please try again in 1m49.0368s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499855, Requested 794. Please try again in 1m52.147199999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "The 2011\u201312 VCU Rams men's basketball team, led by third year head coach Shaka Smart, represented Virginia Commonwealth University which was founded in what year?",
+    "gold_answer": "1838",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499825, Requested 667. Please try again in 1m25.0176s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499822, Requested 820. Please try again in 1m50.9376s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499821, Requested 820. Please try again in 1m50.7648s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499820, Requested 820. Please try again in 1m50.592s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499819, Requested 819. Please try again in 1m50.2464s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499818, Requested 801. Please try again in 1m46.9632s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "Kaiser Ventures corporation was founded by an American industrialist who became known as the father of modern American shipbuilding?",
+    "gold_answer": "Henry J. Kaiser",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499790, Requested 733. Please try again in 1m30.3744s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499787, Requested 836. Please try again in 1m47.6544s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499784, Requested 836. Please try again in 1m47.136s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499783, Requested 835. Please try again in 1m46.790399999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499782, Requested 822. Please try again in 1m44.3712s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499781, Requested 836. Please try again in 1m46.6176s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "What is the name for the adventure in \"Tunnels and Trolls\", a game designed by Ken St. Andre?",
+    "gold_answer": "Arena of Khazan",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499752, Requested 693. Please try again in 1m16.896s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499751, Requested 822. Please try again in 1m39.0144s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499749, Requested 823. Please try again in 1m38.8416s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499748, Requested 842. Please try again in 1m41.952s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499747, Requested 822. Please try again in 1m38.323199999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499746, Requested 847. Please try again in 1m42.4704s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "When was Poison's album \"Shut Up, Make Love\" released?",
+    "gold_answer": "2000",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499719, Requested 652. Please try again in 1m4.1088s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499718, Requested 784. Please try again in 1m26.7456s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499716, Requested 766. Please try again in 1m23.2896s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499716, Requested 785. Please try again in 1m26.5728s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499715, Requested 785. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499714, Requested 782. Please try again in 1m25.7088s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "Hayden is a singer-songwriter from Canada, but where does Buck-Tick hail from?",
+    "gold_answer": "Fujioka, Gunma",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "<think>\nOkay, let's see. The user is asking about Buck-Tick and where they're from. The question mentions that Hayden is a Canadian singer-songwriter, but they want to know the origin of Buck-Tick.\n\nLooking at the context passages, I need to check each one. Passage 1 talks about Hayden, so that's not relevant here. Passage 2 mentions Alberta, Canada, but that's about hailstorms. Passage 3 is about a toddler photo of Hayden. Passage 4 is about the Alberta Hail Project, which doesn't seem related. Then Passage 5 mentions Atsushi Sakurai as the vocalist for Buck-Tick since 1985 and that he was their drummer before. The key here is that Buck-Tick is a Japanese band because Atsushi Sakurai is a Japanese musician. However, the context doesn't explicitly state where Buck-Tick is from. Wait, the user's question is about where Buck-Tick \"hails from,\" which means their origin. The problem is the provided passages don't mention the country or city where Buck-Tick is from. Passage 5 only states that Atsushi Sakurai has been the vocalist since 1985. Since there's no information in the context about Buck-Tick's origin, the correct answer would be \"Not found in context.\" The user might be expecting an answer based on general knowledge, but according to the rules, I can only use the provided passages",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500000, Requested 934. Please try again in 2m41.3952s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499999, Requested 741. Please try again in 2m7.872s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499999, Requested 758. Please try again in 2m10.809599999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499998, Requested 746. Please try again in 2m8.5632s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499998, Requested 759. Please try again in 2m10.809599999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      0.75,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "Which  French ace pilot and adventurer fly L'Oiseau Blanc",
+    "gold_answer": "Charles Eug\u00e8ne",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499973, Requested 749. Please try again in 2m4.7616s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499973, Requested 899. Please try again in 2m30.6816s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499972, Requested 900. Please try again in 2m30.6816s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499971, Requested 900. Please try again in 2m30.5088s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499970, Requested 900. Please try again in 2m30.336s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499968, Requested 899. Please try again in 2m29.8176s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "Which band, Letters to Cleo or Screaming Trees, had more members?",
+    "gold_answer": "Letters to Cleo",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499940, Requested 693. Please try again in 1m49.3824s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499940, Requested 822. Please try again in 2m11.6736s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499937, Requested 822. Please try again in 2m11.1552s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499936, Requested 822. Please try again in 2m10.9824s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499936, Requested 822. Please try again in 2m10.9824s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499935, Requested 822. Please try again in 2m10.809599999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "Alexander Kerensky was defeated and destroyed by the Bolsheviks in the course of a civil war that ended when ?",
+    "gold_answer": "October 1922",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499908, Requested 693. Please try again in 1m43.8528s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499907, Requested 829. Please try again in 2m7.1808s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499907, Requested 828. Please try again in 2m7.008s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499906, Requested 827. Please try again in 2m6.6624s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499906, Requested 828. Please try again in 2m6.835199999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499905, Requested 833. Please try again in 2m7.5264s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "Seven Brief Lessons on Physics was written by an Italian physicist that has worked in France since what year?",
+    "gold_answer": "2000",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499877, Requested 598. Please try again in 1m22.08s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499876, Requested 851. Please try again in 2m5.6256s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499875, Requested 852. Please try again in 2m5.6256s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499875, Requested 852. Please try again in 2m5.6256s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499873, Requested 852. Please try again in 2m5.279999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499873, Requested 857. Please try again in 2m6.143999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "The Livesey Hal War Memorial commemorates the fallen of which war, that had over 60 million casualties?",
+    "gold_answer": "World War II",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499844, Requested 613. Please try again in 1m18.9696s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499844, Requested 781. Please try again in 1m48s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499843, Requested 776. Please try again in 1m46.9632s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499843, Requested 781. Please try again in 1m47.8272s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499842, Requested 781. Please try again in 1m47.6544s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499841, Requested 781. Please try again in 1m47.4816s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "Ralph Hefferline was a psychology professor at a university that is located in what city?",
+    "gold_answer": "New York City",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499812, Requested 623. Please try again in 1m15.168s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499811, Requested 744. Please try again in 1m35.904s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499809, Requested 744. Please try again in 1m35.5584s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499808, Requested 745. Please try again in 1m35.5584s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499808, Requested 745. Please try again in 1m35.5584s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499807, Requested 745. Please try again in 1m35.3856s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "Which dog's ancestors include Gordon and Irish Setters: the Manchester Terrier or the Scotch Collie?",
+    "gold_answer": "Scotch Collie",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499771, Requested 669. Please try again in 1m16.032s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499771, Requested 776. Please try again in 1m34.521599999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499770, Requested 782. Please try again in 1m35.3856s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499769, Requested 777. Please try again in 1m34.3488s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499769, Requested 777. Please try again in 1m34.3488s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499768, Requested 777. Please try again in 1m34.176s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "Where is the company that Sachin Warrier worked for as a software engineer headquartered?",
+    "gold_answer": "Mumbai",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "Not found in context.",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499960, Requested 611. Please try again in 1m38.6688s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499958, Requested 746. Please try again in 2m1.6512s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499955, Requested 745. Please try again in 2m0.96s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499955, Requested 743. Please try again in 2m0.6144s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499954, Requested 745. Please try again in 2m0.7872s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "A Japanese manga series based on a 16 year old high school student Ichitaka Seto, is written and illustrated by someone born in what year?",
+    "gold_answer": "1962",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499927, Requested 634. Please try again in 1m36.9408s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499924, Requested 782. Please try again in 2m1.9968s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499922, Requested 781. Please try again in 2m1.4784s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499920, Requested 781. Please try again in 2m1.1328s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499917, Requested 781. Please try again in 2m0.6144s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499916, Requested 781. Please try again in 2m0.4416s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "The battle in which Giuseppe Arimondi lost his life secured what for Ethiopia?",
+    "gold_answer": "sovereignty",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499869, Requested 667. Please try again in 1m32.6208s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499868, Requested 813. Please try again in 1m57.6768s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499866, Requested 813. Please try again in 1m57.3312s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499865, Requested 813. Please try again in 1m57.1584s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499864, Requested 813. Please try again in 1m56.985599999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499862, Requested 818. Please try again in 1m57.504s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "Alfred Balk served as the secretary of the Committee on the Employment of Minority Groups in the News Media under which United States Vice President?",
+    "gold_answer": "Nelson Rockefeller",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499792, Requested 717. Please try again in 1m27.9552s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499792, Requested 878. Please try again in 1m55.776s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499791, Requested 877. Please try again in 1m55.430399999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499790, Requested 883. Please try again in 1m56.2944s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499790, Requested 878. Please try again in 1m55.430399999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499789, Requested 883. Please try again in 1m56.121599999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "A medieval fortress in Dirleton, East Lothian, Scotland borders on the south side of what coastal area?",
+    "gold_answer": "Yellowcraig",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499753, Requested 658. Please try again in 1m11.0208s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499750, Requested 816. Please try again in 1m37.8048s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499748, Requested 816. Please try again in 1m37.4592s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499746, Requested 816. Please try again in 1m37.1136s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499745, Requested 816. Please try again in 1m36.9408s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499741, Requested 816. Please try again in 1m36.2496s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "Who is the writer of this song that was inspired by words on a tombstone and was the first track on the box set Back to Mono?",
+    "gold_answer": "Phil Spector",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499703, Requested 697. Please try again in 1m9.12s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499702, Requested 807. Please try again in 1m27.9552s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499701, Requested 810. Please try again in 1m28.3008s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499700, Requested 810. Please try again in 1m28.128s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499698, Requested 809. Please try again in 1m27.6096s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499696, Requested 810. Please try again in 1m27.4368s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "What type of forum did a former Soviet statesman initiate?",
+    "gold_answer": "Organizations could come together to address global issues",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "Not found in context.",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499999, Requested 670. Please try again in 1m55.6032s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499998, Requested 771. Please try again in 2m12.8832s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499997, Requested 771. Please try again in 2m12.7104s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499996, Requested 771. Please try again in 2m12.5376s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499995, Requested 771. Please try again in 2m12.3648s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "Which British first-generation jet-powered medium bomber was used in the South West Pacific theatre of World War II?",
+    "gold_answer": "English Electric Canberra",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499971, Requested 629. Please try again in 1m43.68s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499970, Requested 758. Please try again in 2m5.7984s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499968, Requested 711. Please try again in 1m57.3312s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499967, Requested 760. Please try again in 2m5.6256s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499966, Requested 759. Please try again in 2m5.279999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499965, Requested 764. Please try again in 2m5.9712s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "Which year and which conference was the 14th season for this conference as part of the NCAA Division that the Colorado Buffaloes played in with a record of 2-6 in conference play?",
+    "gold_answer": "2009 Big 12 Conference",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499943, Requested 666. Please try again in 1m45.235199999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499942, Requested 858. Please try again in 2m18.24s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499940, Requested 851. Please try again in 2m16.6848s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499939, Requested 853. Please try again in 2m16.857599999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499937, Requested 810. Please try again in 2m9.0816s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499937, Requested 852. Please try again in 2m16.3392s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "In 1991 Euromarch\u00e9 was bought by a chain that operated how any hypermarkets at the end of 2016?",
+    "gold_answer": "1,462",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499908, Requested 622. Please try again in 1m31.584s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499906, Requested 737. Please try again in 1m51.1104s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499904, Requested 738. Please try again in 1m50.9376s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499903, Requested 738. Please try again in 1m50.7648s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499902, Requested 738. Please try again in 1m50.592s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499901, Requested 737. Please try again in 1m50.2464s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "What race track in the midwest hosts a 500 mile race eavery May?",
+    "gold_answer": "Indianapolis Motor Speedway",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499876, Requested 679. Please try again in 1m35.904s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499873, Requested 934. Please try again in 2m19.4496s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499872, Requested 887. Please try again in 2m11.1552s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499868, Requested 935. Please try again in 2m18.7584s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499867, Requested 935. Please try again in 2m18.5856s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499864, Requested 935. Please try again in 2m18.0672s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "In what city did the \"Prince of tenors\" star in a film based on an opera by Giacomo Puccini?",
+    "gold_answer": "Rome",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499839, Requested 618. Please try again in 1m18.9696s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499836, Requested 848. Please try again in 1m58.1952s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499834, Requested 848. Please try again in 1m57.8496s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499832, Requested 800. Please try again in 1m49.2096s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499830, Requested 800. Please try again in 1m48.864s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499828, Requested 847. Please try again in 1m56.64s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "Ellie Goulding worked with what other writers on her third studio album, Delirium?",
+    "gold_answer": "Max Martin, Savan Kotecha and Ilya Salmanzadeh",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499802, Requested 673. Please try again in 1m22.08s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499801, Requested 841. Please try again in 1m50.9376s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499798, Requested 843. Please try again in 1m50.7648s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499797, Requested 843. Please try again in 1m50.592s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499796, Requested 842. Please try again in 1m50.2464s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499795, Requested 843. Please try again in 1m50.2464s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "Which Australian city founded in 1838 contains a boarding school opened by a Prime Minister of Australia and named after a school in London of the same name.",
+    "gold_answer": "Marion, South Australia",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499766, Requested 719. Please try again in 1m23.808s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499763, Requested 800. Please try again in 1m37.2864s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499763, Requested 801. Please try again in 1m37.4592s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499761, Requested 801. Please try again in 1m37.1136s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499760, Requested 753. Please try again in 1m28.6464s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499759, Requested 801. Please try again in 1m36.767999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "D1NZ is a series based on what oversteering technique?",
+    "gold_answer": "Drifting",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "D1NZ is a drifting series, which involves an oversteering technique where the driver intentionally loses rear-wheel traction to maintain control while cornering at speed. This is explicitly mentioned in Passage 1.",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499982, Requested 627. Please try again in 1m45.235199999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499981, Requested 858. Please try again in 2m24.9792s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499981, Requested 805. Please try again in 2m15.820799999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499980, Requested 858. Please try again in 2m24.8064s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499979, Requested 805. Please try again in 2m15.4752s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": 0.6436477874005573,
+    "r2": 0.6036005025444311,
+    "hi_rate": [
+      0.5,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "who is younger Keith Bostic or Jerry Glanville ?",
+    "gold_answer": "Keith Bostic",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499945, Requested 605. Please try again in 1m35.04s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499944, Requested 765. Please try again in 2m2.5152s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499943, Requested 766. Please try again in 2m2.5152s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499943, Requested 766. Please try again in 2m2.5152s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499942, Requested 766. Please try again in 2m2.3424s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499942, Requested 766. Please try again in 2m2.3424s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "According to the 2001 census, what was the population of the city in which Kirton End is located?",
+    "gold_answer": "35,124",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499913, Requested 714. Please try again in 1m48.345599999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499913, Requested 778. Please try again in 1m59.4048s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499912, Requested 773. Please try again in 1m58.368s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499912, Requested 782. Please try again in 1m59.9232s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499911, Requested 783. Please try again in 1m59.9232s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499911, Requested 773. Please try again in 1m58.1952s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  }
+]

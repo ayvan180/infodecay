@@ -1,0 +1,2452 @@
+[
+  {
+    "question": "What government position was held by the woman who portrayed Corliss Archer in the film Kiss and Tell?",
+    "gold_answer": "Chief of Protocol",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.836 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.836 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.836 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.836 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.836 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "What science fantasy young adult series, told in first person, has a set of companion books narrating the stories of enslaved worlds and alien species?",
+    "gold_answer": "Animorphs",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "<think>\nOkay, let's see. The user is asking about a science fantasy young adult series that's told in first person and has companion books about enslaved worlds and alien species.\n\nLooking at the context passages, Passage 1 mentions Animorphs, which is told in first person with six main characters narrating. That fits the first part of the question. Now, about companion books. Passage 3 and 5 talk about Square Enix companion books, but they're about video games, not a YA series. Passage 2 is about Etiquette & Espionage, but that's a single novel, not a series. Passage 4 is the Andre Norton Award, which isn't directly relevant here.\n\nThe user's question mentions companion books that narrate stories of enslaved worlds and alien species. The Animorphs series does involve alien species and themes of enslavement, as the plot revolves around humans fighting against a Yeerk invasion. However, the provided contexts don't explicitly mention companion books for Animorphs. The Square Enix books are about their games, not Animorphs. Since none of the passages link Animorphs to companion books, but the question implies such books exist, but the context doesn't provide that info. Wait, maybe the user is conflating different elements. The answer should be based strictly on the given passages. Since there's no mention of companion books for Animorphs in the context, the correct answer would be that it's not found.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "<think>\nOkay, let's see. The user is asking about a science fantasy young adult series told in first person with companion books about enslaved worlds and alien species.\n\nLooking at the context passages, Passage 3 mentions \"Etiquette & Espionage\" as a young adult novel set in the same universe as the \"Parasol Protectorate\" adult series. The key here is that \"Parasol Protectorate\" is an adult series, but the question is about a young adult series. However, the user's previous answer was \"Not found in context,\" so maybe I need to check again.\n\nWait, the question specifies \"science fantasy young adult series.\" The only young adult book mentioned is \"Etiquette & Espionage\" in Passage 3. But does it mention anything about being told in first person or having companion books about enslaved worlds and alien species? The passage doesn't specify the narrative perspective or companion books. The \"Parasol Protectorate\" is the adult series, but the question is about a young adult series. Since there's no mention of first-person narration or companion books in the provided contexts, maybe the answer isn't here. But the user's previous answer was \"Not found in context,\" so perhaps the correct answer here is also not found. Wait, but the user is asking again. Let me check again. The context doesn't mention anything about first-person narration or companion books related to enslaved worlds and alien species. So the answer should still be",
+      "Not found in context."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.317 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.991 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.991 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.991 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.415 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": 0.6436477874005573,
+    "r2": 0.6036005025444311,
+    "hi_rate": [
+      0.75,
+      1.0,
+      1.0,
+      1.0,
+      0.5625,
+      1.0
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "The director of the romantic comedy \"Big Stone Gap\" is based in what New York city?",
+    "gold_answer": "Greenwich Village, New York City",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.857 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.857 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.857 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.857 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.857 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "2014 S/S is the debut album of a South Korean boy group that was formed by who?",
+    "gold_answer": "YG Entertainment",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "<think>\nOkay, let's see. The user is asking about the 2014 S/S album and which South Korean boy group formed it. From the context passages, Passage 1 says that 2014 S/S is the debut album of South Korean group WINNER. So the answer should be WINNER. But wait, the question is asking who formed the group. Wait, no, the question is phrased as \"formed by who?\" So actually, the user is asking which company formed the group that released 2014 S/S.\n\nWait, the passage says that 2014 S/S is the debut album of WINNER. So the group is WINNER. Now, looking at the other passages to see which one mentions WINNER's formation. The other passages mention Madtown, History, SF9, and Cho Kyuhyun. None of these other passages mention WINNER's formation. Passage 1 only states that 2014 S/S is their debut album. So the answer is that the group is WINNER, but the context doesn't specify who formed them. Wait, but the user is asking \"formed by who?\" So the answer would be the company that formed WINNER. However, in the given context, there's no information about who formed WINNER. The passage only says that 2014 S/S is their debut album. Therefore, the answer is not found in the context.",
+      "YG Entertainment formed the South Korean boy group WINNER, whose debut album is *2014 S/S*.",
+      "YG Entertainment formed the South Korean boy group WINNER, whose debut album is *2014 S/S*.",
+      "YG Entertainment formed the South Korean boy group WINNER, whose debut album is *2014 S/S*.",
+      "YG Entertainment formed the South Korean boy group WINNER, whose debut album is *2014 S/S*.",
+      "YG Entertainment formed the South Korean boy group WINNER, whose debut album is *2014 S/S*."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.311 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.164 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.164 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.164 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.164 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "lambda": 0.01183055928065212,
+    "r2": -0.18621191791984604,
+    "hi_rate": [
+      0.631578947368421,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "Who was known by his stage name Aladin and helped organizations improve their performance as a consultant?",
+    "gold_answer": "Eenasul Fateh",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "<think>\nOkay, let's see. The user is asking about someone known by the stage name Aladin who also worked as a consultant to help organizations improve their performance.\n\nFirst, I need to check each passage for mentions of a stage name Aladin. Looking at the passages provided:\n\nPassage 1: Talks about management consulting in general, no names mentioned.\nPassage 2: James P. Comer, a child psychiatrist, founded a school program. No stage name here.\nPassage 3: Indriati Iskak, an actress turned psychologist and marketer. Her stage name is Indriati Iskak, not Aladin.\nPassage 4: ELDee, whose real name is Lanre Dabiri. His stage name is eLDee, not Aladin. He's an IT Consultant now.\nPassage 5: Mick Batyske, known as Mick or MICK. No mention of Aladin.\n\nNone of the passages mention anyone with the stage name Aladin. The question combines a stage name and a consulting role. The only consultants mentioned are in Passage 1 (general) and Passage 4 (ELDee as IT Consultant). ELDee's stage name is eLDee, not Aladin. The other consultants don't have stage names listed. So, there's no one in the provided contexts that matches both the stage name Aladin and being a consultant. Therefore, the answer should be \"Not found",
+      "Eenasul Fateh, known by his stage name Aladin, was a former international management consultant who helped organizations improve their performance.",
+      "Eenasul Fateh, known by his stage name Aladin, was a former international management consultant who helped organizations improve their performance.",
+      "Eenasul Fateh, known by his stage name Aladin, was a former international management consultant who helped organizations improve their performance.",
+      "Eenasul Fateh, known by his stage name Aladin, was a former international management consultant who helped organizations improve their performance.",
+      "Eenasul Fateh, known by his stage name Aladin, was a former international management consultant who helped organizations improve their performance."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.433 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.319 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.319 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.319 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.319 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "lambda": 0.01183055928065212,
+    "r2": -0.18621191791984604,
+    "hi_rate": [
+      0.9,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "The arena where the Lewiston Maineiacs played their home games can seat how many people?",
+    "gold_answer": "3,677 seated",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "Not found in context.",
+      "The Androscoggin Bank Colis\u00e9e in Lewiston, Maine, where the Lewiston Maineiacs played their home games, has a seating capacity of 3,677.",
+      "The arena, Androscoggin Bank Colis\u00e9e, can seat 3,677 people.",
+      "The arena where the Lewiston Maineiacs played their home games, the Androscoggin Bank Colis\u00e9e, can seat 3,677 people.",
+      "The arena where the Lewiston Maineiacs played their home games can seat 3,677 people.",
+      "Not found in context."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.831 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.341 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.530 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.192 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.118 \u2264 0.15 \u2192 stayed with BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      0.5,
+      0.5,
+      0.5,
+      1.0
+    ],
+    "lambda": 4.999836165044646,
+    "r2": -1.0001202899783341,
+    "hi_rate": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "n_switches": 2
+  },
+  {
+    "question": "Who is older, Annie Morton or Terry Richardson?",
+    "gold_answer": "Terry Richardson",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "Terry Richardson is older. He was born in 1965 (Passage 3), while Annie Morton was born in 1970 (Passage 1).",
+      "<think>\nOkay, let's see. The user is asking who is older between Annie Morton and Terry Richardson.\n\nFirst, I need to check the birth years of both from the provided passages. \n\nLooking at Passage 1: Annie Morton was born on October 8, 1970. \n\nNow, for Terry Richardson. The previous answer mentioned he was born in 1965, but I need to confirm this from the passages. Wait, the passages provided don't directly state Terry Richardson's birth year. Let me check again. Passage 2 mentions Kenton Richardson born in 1999, but that's a different person. Passage 4 refers to Terry Richardson in the context of a photo-book with Lady Gaga, but no birth date there. The previous answer cited Passage 3 for Terry's birth year, but Passage 3 only talks about Annie Morton's modeling work, including photographers like Terry Richardson. There's no mention of Terry Richardson's birth year in the passages provided. \n\nWait, maybe there's a mistake here. The previous answer said Terry was born in 1965 based on Passage 3, but Passage 3 doesn't actually state that. The user might have made an error. Since the current passages don't provide Terry Richardson's birth year, the correct answer based on the given info would be that Annie Morton was born in 1970, and Terry Richardson's birth year isn't provided here. Therefore, the",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.155 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.328 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.919 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.919 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.919 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": 0.37255891855351214,
+    "r2": 0.5755266959013259,
+    "hi_rate": [
+      0.5,
+      0.8235294117647058,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "What is the name of the fight song of the university whose main campus is in Lawrence, Kansas and whose branch campuses are in the Kansas City metropolitan area?",
+    "gold_answer": "Kansas Song",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "Kansas Song (We\u2019re From Kansas) is the fight song of the University of Kansas, which has its main campus in Lawrence and branch campuses in the Kansas City metropolitan area.",
+      "Kansas Song (We\u2019re From Kansas) is the fight song of the University of Kansas, which has its main campus in Lawrence and branch campuses in the Kansas City metropolitan area.",
+      "Kansas Song (We\u2019re From Kansas) is the fight song of the University of Kansas, which has its main campus in Lawrence and branch campuses in the Kansas City metropolitan area.",
+      "Kansas Song (We\u2019re From Kansas) is the fight song of the University of Kansas, which has its main campus in Lawrence and branch campuses in the Kansas City metropolitan area.",
+      "Kansas Song (We\u2019re From Kansas) is the fight song of the University of Kansas, which has its main campus in Lawrence and branch campuses in the Kansas City metropolitan area.",
+      "Kansas Song (We\u2019re From Kansas) is the fight song of the University of Kansas, which has its main campus in Lawrence and branch campuses in the Kansas City metropolitan area."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.193 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.193 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.193 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.193 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.193 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "What screenwriter with credits for \"Evolution\" co-wrote a film starring Nicolas Cage and T\u00e9a Leoni?",
+    "gold_answer": "David Weissman",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "David Weissman, who co-wrote \"The Family Man\" (2000) starring Nicolas Cage and T\u00e9a Leoni, is the screenwriter with credits for \"Evolution\" (2001).",
+      "David Weissman, who co-wrote *The Family Man* (2000) starring Nicolas Cage and T\u00e9a Leoni, also wrote *Evolution* (2",
+      "David Weissman, who co-wrote *The Family Man* (2000) starring Nicolas Cage and T\u00e9a Leoni, also wrote *Evolution* (2001).",
+      "David Weissman, who co-wrote *The Family Man* (2000) starring Nicolas Cage and T\u00e9a Leoni, also wrote *Evolution* (2001).",
+      "David Weissman, who co-wrote *The Family Man* (2000) starring Nicolas Cage and T\u00e9a Leoni, also wrote *Evolution* (2001).",
+      "David Weissman, who co-wrote *The Family Man* (2000) starring Nicolas Cage and T\u00e9a Leoni, also wrote *Evolution* (2001)."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.226 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.292 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.295 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.295 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.295 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "What year did Guns N Roses perform a promo for a movie starring Arnold Schwarzenegger as a former New York Police detective?",
+    "gold_answer": "1999",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "<think>\nOkay, let's see. The user is asking about the year Guns N' Roses did a promo for a movie where Arnold Schwarzenegger plays a former New York Police detective.\n\nFirst, I need to check the context passages for relevant info. Let's go through each one.\n\nPassage 1 mentions Guns N' Roses discography and \"Like a Suicide\" a year before. Not sure about the movie connection here.\n\nPassage 2 is about Get Christie Love! and a character change. Doesn't mention Arnold or a movie.\n\nPassage 3 talks about End of Days, where Schwarzenegger plays Jericho Cane, a former NYPD detective. That fits the description of the movie role. The film's plot is there, but when was the promo?\n\nPassage 4 is about the song \"Oh My God\" by Guns N' Roses. It says they sent it to radio stations in November 1999 as a promo for the soundtrack and band. Wait, if the song was a promo for a soundtrack, maybe the movie is End of Days? Because Passage 3's movie is End of Days, which stars Schwarzenegger as a former NYPD detective. So if the promo was in 1999, that's the year.\n\nPassage 5 mentions Last Action Hero with Schwarzenegger as a police detective, but it's in Los Angeles, not New York. So that's a different movie.\n\nSo putting",
+      "<think>\nOkay, let's see. The user is asking about the year Guns N' Roses did a promo for a movie where Arnold Schwarzenegger plays a former New York Police detective.\n\nFirst, I need to check the context passages for relevant info. Let's go through each one.\n\nPassage 1 mentions Guns N' Roses discography and \"Like a Suicide\" a year before. Not sure about the movie connection here.\n\nPassage 2 is about Get Christie Love! and a character change. Doesn't mention Arnold or a movie.\n\nPassage 3 talks about End of Days, where Schwarzenegger plays Jericho Cane, a former NYPD detective. That fits the description of the movie role. The film's plot is there, but when was the promo?\n\nPassage 4 is about the song \"Oh My God\" by Guns N' Roses. It says they sent it to radio stations in November 1999 as a promo for the soundtrack and band. Wait, if the song was a promo for a soundtrack, maybe the movie is End of Days? Because Passage 3's movie is End of Days, which stars Schwarzenegger as a former NYPD detective. So if the promo was in 1999, that's the year.\n\nPassage 5 mentions Last Action Hero with Schwarzenegger as a police detective, but it's in Los Angeles, not New York. So that's a different movie.\n\nSo putting",
+      "<think>\nOkay, let's see. The user is asking about the year Guns N' Roses did a promo for a movie where Arnold Schwarzenegger plays a former New York Police detective.\n\nFirst, I need to check the context passages for relevant info. Let's go through each one.\n\nPassage 1 mentions Guns N' Roses discography and \"Like a Suicide\" a year before. Not sure about the movie connection here.\n\nPassage 2 is about Get Christie Love! and a character change. Doesn't mention Arnold or a movie.\n\nPassage 3 talks about End of Days, where Schwarzenegger plays Jericho Cane, a former NYPD detective. That fits the description of the movie role. The film's plot is there, but when was the promo?\n\nPassage 4 is about the song \"Oh My God\" by Guns N' Roses. It says they sent it to radio stations in November 1999 as a promo for the soundtrack and band. Wait, if the song was a promo for a soundtrack, maybe the movie is End of Days? Because Passage 3's movie is End of Days, which stars Schwarzenegger as a former NYPD detective. So if the promo was in 1999, that's the year.\n\nPassage 5 mentions Last Action Hero with Schwarzenegger as a police detective, but it's in Los Angeles, not New York. So that's a different movie.\n\nSo putting",
+      "1999. The song \"Oh My God\" by Guns N' Roses was promoted in November 1999 for the *End of",
+      "1999. The song \"Oh My God\" by Guns N' Roses was promoted in November 1999 for the film *End of Days*, which stars Arnold Schwarzenegger as a former New York Police detective.",
+      "1999. Guns N' Roses promoted the song \"Oh My God\" in November 1999 for the film *End of Days*, starring Arnold Schwarzenegger as a former New York Police detective."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.258 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.258 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.258 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.528 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.274 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      0.7,
+      0.7,
+      0.7,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "The football manager who recruited David Beckham managed Manchester United during what timeframe?",
+    "gold_answer": "from 1986 to 2013",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "<think>\nOkay, let's see. The user is asking about the football manager who recruited David Beckham and the timeframe they managed Manchester United.\n\nFirst, I need to figure out who that manager is. The question mentions David Beckham, so I should check the context passages for any mention of him. Looking at the passages:\n\nPassage 5 talks about the David Beckham Academy, but that's about him founding a school, not about his recruitment. The other passages are about various managers. The previous answer wasn't provided, so I need to rely solely on the given contexts.\n\nWait, none of the passages directly mention David Beckham being recruited. However, the user is asking about the manager who did recruit him. Since the answer must be based on the provided contexts, maybe I need to infer from the managers listed here.\n\nLooking at the managers: Joshua Parlby (1890s), Alex Ferguson (1986-2013), Sir Matt Busby (1945-1969), Ernest Mangnall (1903-1912, then Manchester City 1912-1924). None of these are directly linked to David Beckham's recruitment. But David Beckham was a prominent player for Manchester United in the 90s and early 2000s. The only manager in the contexts who was active during that time is Alex Ferguson, who managed from 1986 to 2",
+      "<think>\nOkay, let's see. The user is asking about the football manager who recruited David Beckham and the timeframe they managed Manchester United. The answer needs to be based on the provided passages.\n\nFirst, I need to identify which manager recruited David Beckham. The passages mention several managers: Ernest Mangnall, Matt Busby, and Alex Ferguson. The 1995\u201396 season passage (Passage 1) mentions young players like David Beckham being drafted in. However, the manager during that time wasn't explicitly named in the passage. But I know from general knowledge that Alex Ferguson was the manager of Manchester United during the 90s, and he signed Beckham. However, the provided passages don't mention Alex Ferguson at all. Wait, the user's previous answer might have included Alex Ferguson, but in the current context, the passages don't mention him. Let me check again.\n\nLooking at the passages again: Passage 1 talks about the 1995\u201396 season and mentions David Beckham as a young player drafted in. The manager during that time would be the one who recruited him. But the passage doesn't name the manager. The other passages mention Matt Busby (managed from 1945\u20131969) and Ernest Mangnall (1903\u20131912, then Manchester City). Since David Beckham was active in the 90s, none of the managers mentioned in the passages are the",
+      "<think>\nOkay, let's see. The user is asking about the football manager who recruited David Beckham and the timeframe they managed Manchester United. The answer needs to be based on the provided passages.\n\nFirst, I need to identify which manager recruited David Beckham. The passages mention several managers: Ernest Mangnall, Matt Busby, and Alex Ferguson. The 1995\u201396 season passage (Passage 1) mentions young players like David Beckham being drafted in. However, the manager during that time wasn't explicitly named in the passage. But I know from general knowledge that Alex Ferguson was the manager of Manchester United during the 90s, and he signed Beckham. However, the provided passages don't mention Alex Ferguson at all. Let me check again.\n\nLooking at the passages again: Passage 1 talks about the 1995\u201396 season and mentions David Beckham as a young player drafted in. The manager during that time would be the one who recruited him. But the passage doesn't name the manager. The other passages mention Matt Busby (managed from 1945\u20131969) and Ernest Mangnall (1903\u20131912, then Manchester City). Since David Beckham was active in the 90s, none of the managers mentioned in the passages are the correct answer. The user's previous answer might have included Alex Ferguson, but in the current context, the passages don't mention him",
+      "<think>\nOkay, let's see. The user is asking about the football manager who recruited David Beckham and the timeframe they managed Manchester United. The answer needs to be based on the provided passages.\n\nFirst, I need to identify which manager recruited David Beckham. The passages mention several managers: Ernest Mangnall, Matt Busby, and Alex Ferguson. The 1995\u201396 season passage (Passage 1) mentions young players like David Beckham being drafted in. However, the manager during that time wasn't explicitly named in the passage. But I know from general knowledge that Alex Ferguson was the manager of Manchester United during the 90s, and he signed Beckham. However, the provided passages don't mention Alex Ferguson at all. Let me check again.\n\nLooking at the passages again: Passage 1 talks about the 1995\u201396 season and mentions David Beckham as a young player drafted in. The manager during that time would be the one who recruited him. But the passage doesn't name the manager. The other passages mention Matt Busby (managed from 1945\u20131969) and Ernest Mangnall (1903\u20131912, then Manchester City). Since David Beckham was active in the 90s, none of the managers mentioned in the passages are the correct answer. The user's previous answer might have included Alex Ferguson, but in the current context, the passages don't mention him",
+      "<think>\nOkay, let's see. The user is asking about the football manager who recruited David Beckham and the timeframe they managed Manchester United. The answer needs to be based on the provided passages.\n\nFirst, I need to identify which manager recruited David Beckham. The passages mention several managers: Ernest Mangnall, Matt Busby, and Alex Ferguson. The 1995\u201396 season passage (Passage 1) mentions young players like David Beckham being drafted in. However, the manager during that time wasn't explicitly named in the passage. But I know from general knowledge that Alex Ferguson was the manager of Manchester United during the 90s, and he signed Beckham. However, the provided passages don't mention Alex Ferguson at all. Let me check again.\n\nLooking at the passages again: Passage 1 talks about the 1995\u201396 season and mentions David Beckham as a young player drafted in. The manager during that time would be the one who recruited him. But the passage doesn't name the manager. The other passages mention Matt Busby (managed from 1945\u20131969) and Ernest Mangnall (1903\u20131912, then Manchester City). Since David Beckham was active in the 90s, none of the managers mentioned in the passages are the correct answer. The user's previous answer might have included Alex Ferguson, but in the current context, the passages don't mention him",
+      "Not found in context."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.266 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.259 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.272 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.272 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.272 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      0.5,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": 0.9901554255227769,
+    "r2": 0.8146807030175564,
+    "hi_rate": [
+      0.7142857142857143,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      1.0
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "Brown State Fishing Lake is in a country that has a population of how many inhabitants ?",
+    "gold_answer": "9,984",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.853 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.853 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.853 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.853 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.853 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "The Vermont Catamounts men's soccer team currently competes in a conference that was formerly known as what from 1988 to 1996?",
+    "gold_answer": "the North Atlantic Conference",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "The Vermont Catamounts men's soccer team currently competes in the America East Conference, which was formerly known as the North Atlantic Conference from 1988 to 1996.",
+      "The Vermont Catamounts men's soccer team currently competes in the America East Conference, which was formerly known as the North Atlantic Conference from 1988 to 1996.",
+      "The Vermont Catamounts men's soccer team currently competes in the America East Conference, which was formerly known as the North Atlantic Conference from 1988 to 1996.",
+      "The Vermont Catamounts men's soccer team currently competes in the America East Conference, which was formerly known as the North Atlantic Conference from 1988 to 1996.",
+      "The Vermont Catamounts men's soccer team currently competes in the America East Conference, which was formerly known as the North Atlantic Conference from 1988 to 1996.",
+      "The Vermont Catamounts men's soccer team currently competes in the America East Conference, which was formerly known as the North Atlantic Conference from 1988 to 1996."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.103 \u2264 0.15 \u2192 stayed with BM25",
+      "Hop 3: drift=0.103 \u2264 0.15 \u2192 stayed with BM25",
+      "Hop 4: drift=0.103 \u2264 0.15 \u2192 stayed with BM25",
+      "Hop 5: drift=0.103 \u2264 0.15 \u2192 stayed with BM25",
+      "Hop 6: drift=0.103 \u2264 0.15 \u2192 stayed with BM25"
+    ],
+    "idi": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "Roger O. Egeberg was Assistant Secretary for Health and Scientific Affairs during the administration of a president that served during what years?",
+    "gold_answer": "1969 until 1974",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "Roger O. Egeberg served as Assistant Secretary for Health and Scientific Affairs during the Nixon administration, which was from 1969 to 1974.",
+      "Roger O. Egeberg served during the administration of Richard Nixon, who was President from 1969 to 1974.",
+      "Roger O. Egeberg was Assistant Secretary for Health and Scientific Affairs during the administration of Richard Nixon, who served as President from 1969 to 1974.",
+      "Roger O. Egeberg served as Assistant Secretary for Health and Scientific Affairs during the Nixon administration, which was from 1969 to 1974.",
+      "Roger O. Egeberg served as Assistant Secretary for Health and Scientific Affairs during the Nixon administration, which was from 1969 to 1974.",
+      "Roger O. Egeberg served as Assistant Secretary for Health and Scientific Affairs during the Nixon administration, which was from 1969 to 1974."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "faiss",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.104 \u2264 0.15 \u2192 stayed with BM25",
+      "Hop 3: drift=0.307 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.116 \u2264 0.15 \u2192 stayed with BM25",
+      "Hop 5: drift=0.104 \u2264 0.15 \u2192 stayed with BM25",
+      "Hop 6: drift=0.104 \u2264 0.15 \u2192 stayed with BM25"
+    ],
+    "idi": [
+      0.6666666666666667,
+      0.6666666666666667,
+      0.6666666666666667,
+      0.6666666666666667,
+      0.6666666666666667,
+      0.6666666666666667
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "n_switches": 2
+  },
+  {
+    "question": "Which writer was from England, Henry Roth or Robert Erskine Childers?",
+    "gold_answer": "Robert Erskine Childers DSC",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "Robert Erskine Childers was English-born, as stated in Passage 5 (\"English-born writer and Irish nationalist\"). Henry Roth was American (Passage 1).",
+      "Robert Erskine Childers was English-born (Passage 2 and 3). Henry Roth was American (Passage 1).",
+      "<think>\nOkay, let's see. The user is asking which writer was from England between Henry Roth and Robert Erskine Childers.\n\nFirst, I need to check the context passages provided. The previous answer mentioned that Robert Erskine Childers was English-born, citing passages 2 and 3. Let me verify that.\n\nLooking at Passage 1: Robert Erskine Childers is the son of Robert Caesar Childers, a British Orientalist scholar. The term \"British\" here might imply he was born in the UK, which includes England. Passage 3 says Molly married Robert Erskine Childers, but doesn't mention his birthplace. The previous answer also cited Passage 2, but Passage 2 is about Erskine Barton Childers, not Robert Erskine. Wait, maybe there's a mix-up here. Let me check again.\n\nWait, the previous answer says Robert Erskine Childers was English-born based on passages 2 and 3. But Passage 2 is about Erskine Barton Childers, the son of Erskine Hamilton. Passage 3 mentions Molly married Robert Erskine Childers but doesn't state his birthplace. Passage 1 says he's the son of Robert Caesar Childers, a British scholar. So \"British\" here would mean he was born in the UK. So Robert Erskine Childers is British (English), while Henry Roth is American as per Passage 1. The user's",
+      "Robert Erskine Childers was from England, as his father, Robert Caesar Childers, was a British Orientalist scholar (Passage 1). Henry Roth is not mentioned",
+      "Robert Erskine Childers was from England, as stated in Passage 4 (he was a British writer). Henry Roth is identified as American in Passage 3.",
+      "<think>\nOkay, let's see. The user is asking which writer was from England between Henry Roth and Robert Erskine Childers.\n\nFirst, I need to check the context passages provided. Let me go through each one. \n\nPassage 1 talks about Henry Roth being an American novelist. So that's clear\u2014Henry Roth is American. \n\nPassage 2 mentions Robert Erskine Childers as a British writer. The term \"British\" here would mean he was from the United Kingdom, which includes England. But wait, the user is specifically asking about England. However, in Passage 3, there's a mention of Erskine Hamilton Childers (the nephew) serving as President of Ireland. But the question is about Robert Erskine Childers. \n\nLooking back at Passage 2, it says he was a British writer. Since the UK is made up of England, Scotland, Wales, and Northern Ireland, being British doesn't necessarily mean he was from England specifically. But the user's previous answer mentioned that Robert Erskine Childers was from England as per Passage 4. Wait, the previous answer might have a mistake. Let me check Passage 4 again. \n\nPassage 4 is about the Irish Bulletin, which doesn't mention Erskine Childers. Wait, the previous answer said Passage 4 states he was a British writer, but Passage 4 is about the Irish Bulletin. That might be an error. Let me check the"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "faiss",
+      "faiss",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.143 \u2264 0.15 \u2192 stayed with BM25",
+      "Hop 3: drift=0.152 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.278 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.131 \u2264 0.15 \u2192 stayed with BM25",
+      "Hop 6: drift=0.134 \u2264 0.15 \u2192 stayed with BM25"
+    ],
+    "idi": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      0.0,
+      0.0,
+      0.4444444444444444,
+      0.5,
+      0.0,
+      0.65
+    ],
+    "n_switches": 2
+  },
+  {
+    "question": "Which other Mexican Formula One race car driver has held the podium besides the Force India driver born in 1990?",
+    "gold_answer": "Pedro Rodr\u00edguez",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "<think>\nOkay, let's see. The user is asking which other Mexican Formula One driver has held the podium besides the Force India driver born in 1990.\n\nFirst, I need to check the context passages for any Mexican drivers mentioned. Passage 2 says Sergio P\u00e9rez is the only other Mexican to finish on the podium and he's with Sahara Force India. Wait, but the question mentions the Force India driver born in 1990. Let me check the birth years. The Force India drivers mentioned in the VJM04 are Adrian Sutil and Paul di Resta in Passage 3. But those aren't Mexican. Then in Passage 5, Sergio P\u00e9rez is mentioned as a Force India driver. Wait, Passage 2 says he's the only other Mexican on the podium. The user is asking for another Mexican besides the 1990-born Force India driver. But the Force India driver in question here would be Sergio P\u00e9rez, who is Mexican. However, the question is asking for another Mexican besides him. But Passage 2 states that Sergio P\u00e9rez is the \"only other Mexican to finish on the podium,\" implying there's another one. Wait, maybe the user is referring to someone else. Let me check again. The Force India driver born in 1990\u2014wait, Paul di Resta was born in 1990? Let me confirm. Paul di Resta was born in 1990,",
+      "Pedro Rodr\u00edguez is the only Mexican driver to have won a grand prix, making him the most successful Mexican driver in Formula One history.",
+      "<think>\nOkay, let's see. The user is asking which other Mexican F1 driver has held the podium besides the Force India driver born in 1990. First, I need to figure out who that Force India driver is. From the passages, Sergio P\u00e9rez is mentioned as being with Sahara Force India F1 Team and he was born in 1990. So he's the one they're referring to.\n\nNow, the question is asking for another Mexican driver who has been on the podium besides Sergio. Looking at the passages, Passage 1 says Pedro Rodr\u00edguez is the most successful Mexican driver and the only one to have won a grand prix. Passage 2 mentions Sergio P\u00e9rez as the only other Mexican to finish on the podium. Wait, so Pedro won a grand prix, which is a podium finish, and Sergio has also been on the podium. The user is asking for someone besides Sergio. But according to Passage 1, Pedro is the only one to have won a grand prix, which is a podium. Passage 2 says Sergio is the only other to finish on the podium. So does that mean Pedro is the only other besides Sergio? But the user is asking for someone besides Sergio. So the answer would be Pedro Rodr\u00edguez. But wait, the previous answer already stated that Pedro is the only one to win a grand prix. So the answer should be Pedro Rodr\u00edguez. Let me check again. The user is asking for another",
+      "Pedro Rodr\u00edguez is the only other Mexican Formula One driver to have held the podium, as he is the only Mexican to have won a grand prix.",
+      "Pedro Rodr\u00edguez is the other Mexican Formula One driver who has held the podium, as he is the only Mexican to have won a grand prix.",
+      "Pedro Rodr\u00edguez is the other Mexican Formula One driver who has held the podium, as he is the only Mexican to have won a grand prix."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.326 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.350 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.356 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.240 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.248 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "lambda": 0.01183055928065212,
+    "r2": -0.18621191791984604,
+    "hi_rate": [
+      0.5263157894736842,
+      0.0,
+      0.631578947368421,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "This singer of A Rather Blustery Day also voiced what hedgehog?",
+    "gold_answer": "Sonic",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "Not found in context.",
+      "<think>\nOkay, let's see. The user is asking about a singer who performed \"A Rather Blustery Day\" and also voiced a hedgehog. First, I need to check the context passages provided.\n\nLooking at the passages, there are mentions of \"The Wonderful Thing About Tiggers\" from The Tigger Movie (2000) and \"The Many Adventures of Winnie the Pooh\" (1977). The other passages talk about \"The House That Jack Built\" (1967 film) where Jack trades his car for beans and wants to escape his nine-to-five life. \n\nNow, \"A Rather Blustery Day\" is a song from Winnie the Pooh, specifically from the 1977 film. The singer of that song is Sterling Holloway, who also voiced the character of Winnie the Pooh. However, the question mentions a hedgehog. The main hedgehog character in the Winnie the Pooh series is Eeyore. But in the context provided, there's no mention of Eeyore being voiced by someone else. Wait, maybe there's a mix-up here. \n\nWait, the user is asking about a singer who also voiced a hedgehog. If \"A Rather Blustery Day\" is from the 1977 film, and the singer is Sterling Holloway, who voiced Pooh, but Pooh is a bear, not a hedgehog. The hedgehog in",
+      "Not found in context.",
+      "<think>\nOkay, let's see. The user is asking about a singer who performed \"A Rather Blustery Day\" and also voiced a hedgehog. First, I need to check the context passages provided.\n\nLooking at the passages, there are mentions of \"The Wonderful Thing About Tiggers\" from The Tigger Movie (2000) and \"The Many Adventures of Winnie the Pooh\" (1977). The other passages talk about \"The House That Jack Built\" (1967 film) where Jack trades his car for beans and wants to escape his nine-to-five life. \n\nNow, \"A Rather Blustery Day\" is a song from Winnie the Pooh, specifically from the 1977 film. The singer of that song is Sterling Holloway, who also voiced the character of Winnie the Pooh. However, the question mentions a hedgehog. The main hedgehog character in the Winnie the Pooh series is Eeyore. But in the context provided, there's no mention of Eeyore being voiced by someone else. Wait, maybe there's a mix-up here. \n\nWait, the user is asking about a singer who also voiced a hedgehog. If \"A Rather Blustery Day\" is from the 1977 film, and the singer is Sterling Holloway, who voiced Pooh, but Pooh is a bear, not a hedgehog. The hedgehog in",
+      "Not found in context.",
+      "<think>\nOkay, let's see. The user is asking about a singer who performed \"A Rather Blustery Day\" and also voiced a hedgehog. First, I need to check the context passages provided.\n\nLooking at the passages, there are mentions of \"The Wonderful Thing About Tiggers\" from \"The Tigger Movie\" (2000) and \"The Many Adventures of Winnie the Pooh\" (1977). The other passages talk about \"The House That Jack Built\" (1967 film) involving Jack trading his car for beans and his desire to escape a nine-to-five life. \n\nNow, \"A Rather Blustery Day\" is a song from Winnie the Pooh. The singer of that song in the 1977 film would be Sterling Holloway, who voiced both Winnie the Pooh and the hedgehog, Eeyore. Wait, but Eeyore is a donkey, not a hedgehog. Hmm, maybe there's confusion here. Alternatively, maybe the user is referring to another character. But in the context given, the only hedgehog mentioned is in \"The House That Jack Built,\" but that's part of a different film. However, the context doesn't mention any hedgehog being voiced by someone who also sang \"A Rather Blustery Day.\" The passages don't provide information about the singer of that song or any hedgehog character. Therefore, the answer isn't present in"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.973 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.288 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.973 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.288 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.973 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      0.6428571428571429,
+      1.0,
+      0.6428571428571429,
+      1.0,
+      0.7142857142857143
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "Aside from the Apple Remote, what other device can control the program Apple Remote was originally designed to interact with?",
+    "gold_answer": "keyboard function keys",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "<think>\nOkay, let's see. The user is asking about a device other than the Apple Remote that can control the program the Apple Remote was originally designed for. The previous answer was \"Not found in context,\" but maybe I need to check again.\n\nLooking at the passages provided. The first two passages mention Front Row software and NetSupport Manager. Passage 1 says Front Row was removed in Mac OS X 10.7. Passage 4 mentions Front Row's release in 2005. The Apple Remote is known to control Front Row, right? So the question is, is there another device mentioned here that can control Front Row besides the Apple Remote?\n\nLooking through all the passages again. Passage 5 talks about MacScan, which is anti-spyware. Passage 2 and 3 are about NetSupport Manager, which is remote control software. Wait, NetSupport Manager allows control of remote computers. Could that be the answer? If the Apple Remote was for Front Row, and NetSupport Manager can control clients, maybe through a different device? But the question is about the same program the Apple Remote was designed for. The Apple Remote was for Front Row. The passages don't mention any other device controlling Front Row except the Apple Remote. The other passages are about different software. So maybe the answer is still not found. But wait, maybe the user is thinking that Front Row can be controlled by other devices? But the context doesn't say that. The answer"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=1.005 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=1.005 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=1.005 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=1.005 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=1.005 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.5217391304347826
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "Which performance act has a higher instrument to person ratio, Badly Drawn Boy or Wolf Alice?",
+    "gold_answer": "Badly Drawn Boy",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "<think>\nOkay, let's see. The question is asking which act has a higher instrument to person ratio between Badly Drawn Boy and Wolf Alice.\n\nFirst, I need to figure out the number of people in each group. From Passage 4, Wolf Alice is a four-piece band. So that's four members. Badly Drawn Boy is mentioned in Passage 2 as being started by Gough and Andy Votel, but that's about a label. The actual act, Badly Drawn Boy, is usually a solo artist, but the passage doesn't explicitly state how many people are in the group. Wait, Passage 5 mentions \"Badly Drawn Boy's soundtrack for 'About a Boy'\", which might be a solo project. However, Passage 3 refers to \"Badly Drawn Boy's soundtrack\" again, but doesn't specify the number of people. Since there's no direct info on the number of members in Badly Drawn Boy, maybe I need to infer. If Badly Drawn Boy is a solo artist, then the ratio would be based on the number of instrumental tracks. Passage 3 mentions an album with three instrumental tracks by Badly Drawn Boy. But Wolf Alice has four members. If Badly Drawn Boy is a solo act, then the instrument to person ratio would be 3 instruments per 1 person (from Passage 3), while Wolf Alice, as a four-piece, might have four instruments (assuming each plays",
+      "<think>\nOkay, let's tackle this question. The user is asking which act has a higher instrument to person ratio between Badly Drawn Boy and Wolf Alice. \n\nFirst, I need to check the provided passages for any information about the number of people in each group and the number of instruments they use. \n\nLooking at the passages:\n\n- Passage 4 mentions Wolf Alice as a four-piece band. So Wolf Alice has four members.\n- For Badly Drawn Boy, the passages refer to Damon Gough as the performer (Passage 2 and 4). There's no explicit mention of how many people are in Badly Drawn Boy. However, Passage 3 states that \"Badly Drawn Boy's soundtrack for 'About a Boy'\" is an album, but it doesn't specify the number of members. Since Badly Drawn Boy is typically a solo artist (Damon Gough), but sometimes he collaborates. Passage 4 says he wrote, produced, and played several instruments on the album, with some tracks featuring members of Alfie and Doves. But that's about the album's production, not the act itself.\n\nSo, if Badly Drawn Boy is a solo act (1 person), and Wolf Alice is a four-piece, then the instrument to person ratio would depend on the number of instruments each uses. However, the passages don't mention the number of instruments each act uses. The only mention of instruments is in Passage 3, which",
+      "Not found in context. The provided passages do not specify the number of instruments used by either act or confirm the exact number of members in Badly Drawn Boy beyond Damon Gough being the primary artist. Wolf Alice is noted as a four-piece band (implied by \"four-piece\" in Passage 4",
+      "<think>\nOkay, let's see. The user is asking which act has a higher instrument to person ratio between Badly Drawn Boy and Wolf Alice.\n\nFirst, looking at the passages. Passage 4 says Badly Drawn Boy is Damon Gough, so he's a solo artist. But in Passage 2, it mentions that Damon Gough wrote, produced, and played several instruments on the album, with some tracks featuring members of Alfie and Doves. However, those other bands aren't part of Badly Drawn Boy itself. So the main act is just Damon. So the person count is 1.\n\nFor Wolf Alice, Passage 5 states they're a four-piece band. So four people.\n\nNow, instruments. Passage 2 says Damon played several instruments. But how many? The exact number isn't given. \"Several\" is vague. Wolf Alice isn't mentioned in terms of instruments they use. So we don't have specific numbers for either. \n\nThe previous answer mentioned that the context doesn't specify the number of instruments for either. But the user is asking about the ratio. Since Badly Drawn Boy is one person playing several instruments, and Wolf Alice is four people. If we assume \"several\" is more than four, then Badly Drawn Boy's ratio would be higher. But since the exact numbers aren't given, technically the answer is not found in context. But maybe the user expects an inference. However, the rules say",
+      "Not found in context. The provided passages do not specify the exact number of instruments used by either Badly Drawn Boy or Wolf Alice, making it impossible to determine the instrument",
+      "<think>\nOkay, let's see. The user is asking which act has a higher instrument to person ratio between Badly Drawn Boy and Wolf Alice.\n\nFirst, I need to figure out the number of people in each group. For Wolf Alice, Passage 2 says they have four members: Ellie Rowsell, Joff Oddie, Theo Ellis, and Joel Amey. So that's four people. Passage 4 also mentions they're a four-piece band. \n\nFor Badly Drawn Boy, the real name is Damon Gough. Passage 1 and 3 mention him as the composer and performer. Passage 3 says he wrote, produced, and played several instruments on The Hour of Bewilderbeast. But how many people are in Badly Drawn Boy? Since it's a solo project by Damon Gough, there's just one person. \n\nNow, the instrument count. The question is about the ratio of instruments to people. However, none of the passages specify the exact number of instruments each act uses. Passage 3 mentions that Damon Gough played several instruments, but \"several\" is vague. Similarly, Wolf Alice's members might play multiple instruments, but there's no exact number given. \n\nSince the exact number of instruments isn't provided for either act, we can't calculate the ratio. The previous answer was \"Not found in context\" because the necessary data isn't there. The user is asking the same question again, so the answer remains"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.352 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.289 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.335 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.346 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.344 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      0.9285714285714286,
+      0.8571428571428571,
+      0.6666666666666666,
+      0.9583333333333334,
+      1.0,
+      0.8947368421052632
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "What was the father of Kasper Schmeichel voted to be by the IFFHS in 1992?",
+    "gold_answer": "World's Best Goalkeeper",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "Peter Schmeichel, the father of Kasper Schmeichel, was voted the IFFHS World's",
+      "Peter Schmeichel was voted the IFFHS World's Best Goalkeeper in 1992.",
+      "<think>\nOkay, let's see. The user is asking about the father of Kasper Schmeichel and what he was voted by the IFFHS in 1992.\n\nFirst, I need to confirm who Kasper Schmeichel's father is. From the context, Passage 1 mentions Peter Schmeichel, a Danish former footballer. Since Kasper Schmeichel is a known Danish goalkeeper, it's likely that Peter is his father. But the context doesn't explicitly state their relationship. However, common knowledge might tell me that Peter is Kasper's father, but according to the rules, I can only use the provided passages.\n\nLooking at the passages, Passage 1 says Peter Schmeichel was voted the IFFHS World's Best Goalkeeper in 1992 and 1993. The user's previous answer also states that Peter Schmeichel won the award in 1992. The question is asking for the father of Kasper Schmeichel's award in 1992. Since the context doesn't mention Kasper, but only Peter, I need to infer if Peter is Kasper's father. However, the passages don't explicitly say that. But since the user is asking this, and the previous answer refers to Peter Schmeichel's 1992 award, maybe the user assumes that Peter is Kasper's father. \n\nThe problem is whether the context allows me to make that connection",
+      "Peter Schmeichel, the father of Kasper Schmeichel, was voted the IFFHS World's Best Goalkeeper in 1992.",
+      "Peter Schmeichel, the father of Kasper Schmeichel, was voted the IFFHS World's Best Goalkeeper in 1992.",
+      "Peter Schmeichel, the father of Kasper Schmeichel, was voted the IFFHS World's Best Goalkeeper in 1992."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.151 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.335 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.375 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.198 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.198 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      0.6666666666666667,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "lambda": 0.007686553366687828,
+    "r2": -0.18642274308829032,
+    "hi_rate": [
+      1.0,
+      0.0,
+      0.7857142857142857,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "Who was the writer of These Boots Are Made for Walkin' and who died in 2007?",
+    "gold_answer": "Barton Lee Hazlewood",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "<think>\nOkay, let's see. The user is asking two things here: who wrote \"These Boots Are Made for Walkin'\" and who died in 2007.\n\nFirst, looking at the passages provided. Passage 2 and 3 both mention \"These Boots Are Made for Walkin'.\" Passage 2 says it's a hit song written by Lee Hazlewood and recorded by Nancy Sinatra. So the writer is Lee Hazlewood. That part seems straightforward.\n\nNow, the second part: who died in 2007? Let's check the other passages. Passage 1 and 5 talk about Abdul Wali, who died in 2003. Passage 4 mentions Jim Shoulders, but only his birthplace and death place are given; no date. The user is asking about someone who died in 2007, but none of the passages mention a death in that year. The answer should only use the provided context. Since there's no info on someone dying in 2007, I need to note that. \n\nSo the answer would be Lee Hazlewood as the writer, and no one is mentioned as dying in 2007. But the user wants both parts answered. Since the second part isn't in the context, I have to say \"Not found in context\" for that part. Wait, but the instruction says if the context doesn't have the answer, say \"Not found in",
+      "The writer of \"These Boots Are Made for Walkin'\" is Lee Hazlewood. No death in 2007 is mentioned in the provided context.",
+      "The writer of \"These Boots Are Made for Walkin'\" is Lee Hazlewood. No death in 2007 is mentioned in the provided context.",
+      "The writer of \"These Boots Are Made for Walkin'\" is Lee Hazlewood. No death in 2007 is mentioned in the provided context.",
+      "The writer of \"These Boots Are Made for Walkin'\" is Lee Hazlewood. No death in 2007 is mentioned in the provided context.",
+      "The writer of \"These Boots Are Made for Walkin'\" is Lee Hazlewood. No death in 2007 is mentioned in the provided context."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.464 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.192 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.192 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.192 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.192 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      0.5,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": 0.9901554255227769,
+    "r2": 0.8146807030175564,
+    "hi_rate": [
+      0.7222222222222222,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "The 2011\u201312 VCU Rams men's basketball team, led by third year head coach Shaka Smart, represented Virginia Commonwealth University which was founded in what year?",
+    "gold_answer": "1838",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "<think>\nOkay, let's see. The user is asking about the founding year of Virginia Commonwealth University, based on the context provided about the 2011\u201312 VCU Rams men's basketball team.\n\nFirst, I need to check all the given passages to see if any mention the founding year of VCU. Let me go through each passage again.\n\nPassage 1: Talks about the 2010\u201311 team, Shaka Smart's second year, home games at Siegel Center. No founding year mentioned.\n\nPassage 2: 2011\u201312 team, third-year coach Shaka Smart, coming off a Final Four run. Still no founding year info.\n\nPassage 3: 2013\u201314, fifth-year coach, same home venue. Nothing about founding.\n\nPassage 4: 2012\u201313, fourth-year coach. Again, no founding date.\n\nPassage 5: 2014\u201315, sixth-year coach. Still nothing.\n\nNone of the passages mention when Virginia Commonwealth University was founded. The question is trying to trick me into assuming that because the team is from VCU, the answer might be in there, but the passages only talk about the basketball teams, coaches, and venues. There's no information about the university's founding year in the provided contexts. So, according to the rules, if the answer isn't in the context,",
+      "Not found in context.",
+      "Virginia Commonwealth University was founded in 1838 as the medical department of Hampden\u2013Sydney College (Passage 2).",
+      "<think>\nOkay, let's see. The user is asking about the founding year of Virginia Commonwealth University (VCU), specifically in relation to the 2011-12 VCU Rams men's basketball team. The previous answer mentioned that VCU was founded in 1838 as the medical department of Hampden\u2013Sydney College, referencing Passage 2. But wait, looking at Passage 1, it says VCU was founded in 1838 as the medical department of Hampden\u2013Sydney College and became the Medical College of Virginia in 1854. Passage 2 states that in 1968, the Medical College of Virginia (MCV) merged with the Richmond Professional Institute to form VCU.\n\nSo the key here is that the current VCU was formed in 1968 through the merger. However, the Medical College of Virginia's origins trace back to 1838. The question is about when VCU was founded. The answer depends on whether the question refers to the founding of the original medical department or the formation of the current university. The previous answer cited Passage 2, but Passage 2 actually talks about the 1968 merger. The correct founding year of the current VCU is 1968. The earlier date (1838) is the origin of the Medical College of Virginia, which later became part of VCU. Therefore, the answer should",
+      "Virginia Commonwealth University was founded in 1968 when the Medical College of Virginia merged with the Richmond Professional Institute. (Passage 2)",
+      "<think>\nOkay, let's see. The user is asking about the founding year of Virginia Commonwealth University (VCU) in relation to the 2011\u201312 VCU Rams men's basketball team. The previous answer mentioned that VCU was founded in 1968 when the Medical College of Virginia merged with the Richmond Professional Institute. But I need to check the provided passages again to make sure.\n\nLooking at Passage 2, it states that VCU was founded in 1838 as the medical department of Hampden\u2013Sydney College, becoming the Medical College of Virginia in 1854. Then, in 1968, the Medical College of Virginia (MCV) merged with the Richmond Professional Institute (founded in 1917) to create Virginia Commonwealth University, as mentioned in Passage 1. \n\nSo there's a bit of a conflict here. The previous answer said 1968, but Passage 2 mentions 1838. However, the key is understanding that the Medical College of Virginia (MCV) itself traces its roots back to 1838, but the actual formation of VCU as a university happened in 1968 through the merger. Therefore, the correct founding year of VCU as a university is 1968, even though its components have older histories. The answer should be 1968 based on Passage 1.\n</think>"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.340 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.925 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.580 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.404 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.510 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "lambda": 0.14018086391314102,
+    "r2": -0.4653470932523831,
+    "hi_rate": [
+      0.7777777777777778,
+      1.0,
+      0.0,
+      0.6923076923076923,
+      0.5,
+      0.5833333333333334
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "Kaiser Ventures corporation was founded by an American industrialist who became known as the father of modern American shipbuilding?",
+    "gold_answer": "Henry J. Kaiser",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "<think>\nOkay, let's see. The user is asking if Kaiser Ventures corporation was founded by the American industrialist known as the father of modern American shipbuilding. \n\nFirst, I need to check the context passages. Passage 1 mentions Henry J. Kaiser, who is called the father of modern American shipbuilding. Passage 4 talks about Kaiser Shipyards owned by the Kaiser Shipbuilding Company, which was created by Henry J. Kaiser around 1939.\n\nThe question refers to \"Kaiser Ventures corporation,\" but the passages mention \"Kaiser Shipbuilding Company\" and other entities like Kaiser Aluminum and Chemical Corporation (Passage 2). However, there's no direct mention of \"Kaiser Ventures corporation\" in the provided contexts. \n\nThe user might be conflating different companies under the Kaiser name. Since the question is about the founder of the shipbuilding company, Henry J. Kaiser is the correct person. But the specific corporation named \"Kaiser Ventures\" isn't mentioned here. The closest is Nutri Ventures in Passage 3, but that's a different company in Portugal.\n\nSo, the answer should clarify that while Henry J. Kaiser founded the shipbuilding company, there's no mention of Kaiser Ventures in the context. But the user's question links the founder to the title of \"father of modern American shipbuilding,\" which Henry J. Kaiser holds. However, since the exact company name \"Kaiser Ventures\" isn't in the passages, the answer should be",
+      "Yes. Kaiser Ventures was founded by Henry J. Kaiser, who became known as the father of modern American shipbuilding (Passage 2, 4). Passage 4 explicitly states he established it to support the Pacific Coast shipbuilding industry.",
+      "Yes. Kaiser Ventures was founded by Henry J. Kaiser, who became known",
+      "Yes. Henry J. Kaiser founded Kaiser Ventures (Passage 2) and established the Kaiser Shipbuilding Company to meet U.S. Maritime Commission goals (Passage 4), earning recognition as a pivotal figure in American shipbuilding.",
+      "Yes. Kaiser Ventures was founded by Henry J. Kaiser (Passage 2), who is recognized as the \"father of modern American shipbuilding\" (Passage 3).",
+      "Yes. Kaiser Ventures was founded by Henry J. Kaiser (Passage 4), who is recognized as the \"father of modern American shipbuilding\" (Passage 1)."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "bm25",
+      "faiss",
+      "faiss",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.201 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.136 \u2264 0.15 \u2192 stayed with BM25",
+      "Hop 4: drift=0.228 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.242 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.145 \u2264 0.15 \u2192 stayed with BM25"
+    ],
+    "idi": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      0.7142857142857143,
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "n_switches": 4
+  },
+  {
+    "question": "What is the name for the adventure in \"Tunnels and Trolls\", a game designed by Ken St. Andre?",
+    "gold_answer": "Arena of Khazan",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "Arena of Khazan.",
+      "Not found in context.",
+      "Arena of Khazan is the name of the adventure for \"Tunnels & Trolls\" mentioned in the context.",
+      "Arena of Khazan is the name of the \"Tunnels & Trolls\" adventure designed by Ken St. Andre, as stated in Passage 1.",
+      "Arena of Khazan is the name of the \"Tunnels & Trolls\" adventure designed by Ken St. Andre, as stated in Passage 1.",
+      "Arena of Khazan is the name of the \"Tunnels & Trolls\" adventure designed by Ken St. Andre, as stated in Passage 1."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.641 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.860 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.252 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.235 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.235 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "lambda": 0.025034409580029157,
+    "r2": -0.14351973096253934,
+    "hi_rate": [
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "When was Poison's album \"Shut Up, Make Love\" released?",
+    "gold_answer": "2000",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "Poison's album \"Crack a Smile...and More!\" (containing the song \"Sh",
+      "<think>\nOkay, let's see. The user is asking about the release date of Poison's album \"Shut Up, Make Love\". I need to check the provided passages to find the answer.\n\nLooking at Passage 1: It mentions \"Shut Up, Make Love: 'Crack a Smile' is Poison's fifth studio album, released on March 14, 2000...\" Wait, the title here seems a bit confusing. The album name listed here is \"Crack a Smile\" as the fifth studio album. But the user is asking about \"Shut Up, Make Love\". Are these the same album? The way Passage 1 is written might be a bit confusing. Let me check again. The passage starts with \"Shut Up, Make Love: 'Crack a Smile'...\" which could mean that \"Shut Up, Make Love\" is part of the album title or maybe a track? But the user is asking about the album \"Shut Up, Make Love\". \n\nLooking at the other passages: Passage 2 and 3 talk about the song \"Be the One\" from the 2000 album \"Crack a Smile...and More!\". Passage 4 and 5 mention \"Flesh & Blood\" as a multi-platinum album and the most successful one. \n\nSo, the only release date mentioned in the passages is March 14, 2000, for the album \"Crack a",
+      "<think>\nOkay, let's see. The user is asking about the release date of Poison's album \"Shut Up, Make Love\". I need to check the provided passages to find the answer.\n\nLooking at Passage 1: It mentions \"Shut Up, Make Love: 'Crack a Smile' is Poison's fifth studio album, released on March 14, 2000...\" Wait, the title here seems a bit confusing. The album name listed here is \"Crack a Smile\" as the fifth studio album. But the user is asking about \"Shut Up, Make Love\". Are these the same album? The way Passage 1 is written might be a bit confusing. Let me check again. The passage starts with \"Shut Up, Make Love: 'Crack a Smile'...\" which could mean that \"Shut Up, Make Love\" is part of the album title or maybe a track? But the user is asking about the album \"Shut Up, Make Love\". \n\nLooking at the other passages: Passage 2 and 3 talk about the song \"Be the One\" from the 2000 album \"Crack a Smile...and More!\". Passage 4 and 5 mention \"Flesh & Blood\" as a multi-platinum album and the most successful one. \n\nSo, the only release date mentioned in the passages is March 14, 2000, for the album \"Crack a",
+      "<think>\nOkay, let's see. The user is asking about the release date of Poison's album \"Shut Up, Make Love\". I need to check the provided passages to find the answer.\n\nLooking at Passage 1: It mentions \"Shut Up, Make Love: 'Crack a Smile' is Poison's fifth studio album, released on March 14, 2000...\" Wait, the title here seems a bit confusing. The album name listed here is \"Crack a Smile\" as the fifth studio album. But the user is asking about \"Shut Up, Make Love\". Are these the same album? The way Passage 1 is written might be a bit confusing. Let me check again. The passage starts with \"Shut Up, Make Love: 'Crack a Smile'...\" which could mean that \"Shut Up, Make Love\" is part of the album title or maybe a track? But the user is asking about the album \"Shut Up, Make Love\". \n\nLooking at the other passages: Passage 2 and 3 talk about the song \"Be the One\" from the 2000 album \"Crack a Smile...and More!\". Passage 4 and 5 mention \"Flesh & Blood\" as a multi-platinum album and the most successful one. \n\nSo, the only release date mentioned in the passages is March 14, 2000, for the album \"Crack a",
+      "<think>\nOkay, let's see. The user is asking about the release date of Poison's album \"Shut Up, Make Love\". I need to check the provided passages to find the answer.\n\nLooking at Passage 1: It mentions \"Shut Up, Make Love: 'Crack a Smile' is Poison's fifth studio album, released on March 14, 2000...\" Wait, the title here seems a bit confusing. The album name listed here is \"Crack a Smile\" as the fifth studio album. But the user is asking about \"Shut Up, Make Love\". Are these the same album? The way Passage 1 is written might be a bit confusing. Let me check again. The passage starts with \"Shut Up, Make Love: 'Crack a Smile'...\" which could mean that \"Shut Up, Make Love\" is part of the album title or maybe a track? But the user is asking about the album \"Shut Up, Make Love\". \n\nLooking at the other passages: Passage 2 and 3 talk about the song \"Be the One\" from the 2000 album \"Crack a Smile...and More!\". Passage 4 and 5 mention \"Flesh & Blood\" as a multi-platinum album and the most successful one. \n\nSo, the only release date mentioned in the passages is March 14, 2000, for the album \"Crack a",
+      "<think>\nOkay, let's see. The user is asking about the release date of Poison's album \"Shut Up, Make Love\". I need to check the provided passages to find the answer.\n\nLooking at Passage 1: It mentions \"Shut Up, Make Love: 'Crack a Smile' is Poison's fifth studio album, released on March 14, 2000...\" Wait, the title here seems a bit confusing. The album name listed here is \"Crack a Smile\" as the fifth studio album. But the user is asking about \"Shut Up, Make Love\". Are these the same album? The way Passage 1 is written might be a bit confusing. Let me check again. The passage starts with \"Shut Up, Make Love: 'Crack a Smile'...\" which could mean that \"Shut Up, Make Love\" is part of the album title or maybe a track? But the user is asking about the album \"Shut Up, Make Love\". \n\nLooking at the other passages: Passage 2 and 3 talk about the song \"Be the One\" from the 2000 album \"Crack a Smile...and More!\". Passage 4 and 5 mention \"Flesh & Blood\" as a multi-platinum album and the most successful one. \n\nSo, the only release date mentioned in the passages is March 14, 2000, for the album \"Crack a"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.342 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.417 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.417 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.417 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.417 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "lambda": 0.01183055928065212,
+    "r2": -0.18621191791984604,
+    "hi_rate": [
+      1.0,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "Hayden is a singer-songwriter from Canada, but where does Buck-Tick hail from?",
+    "gold_answer": "Fujioka, Gunma",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "<think>\nOkay, let's see. The user is asking about Buck-Tick and where they're from. The question mentions that Hayden is a Canadian singer-songwriter, but they want to know the origin of Buck-Tick.\n\nLooking at the context passages, I need to check each one. Passage 1 talks about Hayden, so that's not relevant here. Passage 2 mentions Alberta, Canada, but that's about hailstorms. Passage 3 is about a toddler photo of Hayden. Passage 4 is about the Alberta Hail Project, which doesn't seem related. Then Passage 5 mentions Atsushi Sakurai as the vocalist for Buck-Tick since 1985 and that he was their drummer before. The key here is that Buck-Tick is a Japanese band because Atsushi Sakurai is Japanese. However, the user wants the answer based on the provided passages. The passages don't explicitly state where Buck-Tick is from, but since Atsushi Sakurai is part of the band and he's Japanese, it's implied. Wait, but the user wants only the answer from the given passages. The passage says he's the vocalist since 1985, but there's no mention of the band's origin. So maybe the answer isn't here. Wait, the user might be tricking me. Let me check again. The question is about where Buck-Tick hails from. The passage only mentions Atsushi Sakurai's role",
+      "Buck-Tick hails from Fujioka, Gunma, Japan, as stated in Passage 2.",
+      "Buck-Tick hails from Fujioka, Gunma, Japan, as stated in Passage 1.",
+      "Buck-Tick hails from Fujioka, Gunma, Japan, as stated in Passage 1.",
+      "Buck-Tick hails from Fujioka, Gunma, Japan, as stated in Passage 1.",
+      "Buck-Tick hails from Fujioka, Gunma, Japan, as stated in Passage 1."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.243 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.425 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.424 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.424 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.424 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "lambda": 0.01183055928065212,
+    "r2": -0.18621191791984604,
+    "hi_rate": [
+      0.7368421052631579,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "Which  French ace pilot and adventurer fly L'Oiseau Blanc",
+    "gold_answer": "Charles Eug\u00e8ne",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "Fran\u00e7ois Coli was the French pilot who flew L'Oiseau Blanc alongside Charles Nungesser in their 1927 transatlantic attempt.",
+      "Charles Nungesser, a French ace pilot and adventurer, flew L'Oiseau Blanc alongside Fran\u00e7ois Coli in their 1927 transatlantic attempt.",
+      "Charles Nungesser, a French ace pilot and adventurer, flew L'Oiseau Blanc alongside Fran\u00e7ois Coli in their 1927 transatlantic attempt.",
+      "Charles Nungesser, a French ace pilot and adventurer, flew L'Oiseau Blanc alongside Fran\u00e7ois Coli in their 1927 transatlantic attempt.",
+      "Charles Nungesser, a French ace pilot and adventurer, flew L'Oiseau Blanc alongside Fran\u00e7ois Coli.",
+      "Charles Nungesser, a French ace pilot and adventurer, flew L'Oiseau Blanc alongside Fran\u00e7ois Coli."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.349 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.312 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.312 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.312 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.276 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "Which band, Letters to Cleo or Screaming Trees, had more members?",
+    "gold_answer": "Letters to Cleo",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "Letters to Cleo had six members (Kay Hanley, Greg McKenna, Michael Eisenstein, Stacy Jones, Scott Riebling, and later Tom Polce), while Screaming Trees' member count is unspecified in the context",
+      "Letters to Cleo had six members, while Screaming Trees had",
+      "<think>\nOkay, let's see. The user is asking which band, Letters to Cleo or Screaming Trees, had more members. I need to use the provided passages to answer this.\n\nFirst, looking at Passage 1 about Letters to Cleo. It lists the members as Kay Hanley, Greg McKenna, Michael Eisenstein, Stacy Jones, Scott Riebling, and later Tom Polce. That's six names, with Tom Polce joining later. So the main members are six, but maybe seven if Tom is counted. Wait, the passage says \"the band's members are...\" and lists six, then \"later, Tom Polce.\" So maybe Tom was a later addition, making it seven? But the question is about how many members each band had. The answer might depend on whether Tom is considered a current member. The passage doesn't specify if he's still part of the band, but the list includes him as a member. Hmm, but the way it's written might mean that the main members are six, with Tom being an additional one. So maybe seven total.\n\nNow for Screaming Trees. Passage 4 says they were formed in 1985 by Mark Lanegan, Gary Lee Conner, Van Conner, and Mark Pickerel. That's four members. The other passages mention other members in context, like Yamamoto and Pickerel in Passage 3, but Yamamoto is from Soundgarden and Pickerel is from Scre",
+      "Letters to Cleo had six members (including Tom Polce as a later addition), while Screaming Trees had four founding members. Letters to Cleo had more members.",
+      "Letters to Cleo had six members (including Tom Polce as a later addition), while Screaming Trees had four founding members. Letters to",
+      "Letters to Cleo had six members (including Tom Polce as a later addition), while Screaming Trees had four founding members. Letters to Cleo had more members."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.217 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.200 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.283 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.210 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.266 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      0.0,
+      0.0,
+      0.8333333333333334,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "Alexander Kerensky was defeated and destroyed by the Bolsheviks in the course of a civil war that ended when ?",
+    "gold_answer": "October 1922",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "The Russian Civil War, in which Alexander Kerensky's faction was defeated by the Bolsheviks, ended in 1923 when Red control of the Soviet Union was secured, as stated in Passage 2.",
+      "<think>\nOkay, let's see. The user is asking when Alexander Kerensky was defeated and destroyed by the Bolsheviks in the civil war.\n\nFirst, I need to check the context passages. The previous answer mentioned that the Russian Civil War ended in 1923 when Red control was assured. Passage 5 specifically talks about the Socialist Revolutionary Party's Right SRs, loyal to Kerensky, being defeated by the Bolsheviks during the war and subsequent persecution. \n\nThe question is about when Kerensky's faction was defeated. The answer should tie to the end of the civil war. The previous answer said the war ended in 1923, but Passage 3 states the war lasted from November 1917 to October 1922. However, Passage 1 mentions that the war ended in 1923 in the sense that Red control was assured, even though some resistance continued until 1934. \n\nSo, the defeat of Kerensky's faction happened during the course of the war, which officially ended in 1922 according to Passage 3, but the broader conflict's conclusion in terms of Bolshevik control was 1923. The answer needs to reference when the war ended, which the previous answer used 1923. But Passage 3's end date is October 1922. However, the user's previous answer used 1923 based on Passage",
+      "<think>\nOkay, let's tackle this. The user is asking when Alexander Kerensky was defeated by the Bolsheviks, specifically in the context of the civil war's end.\n\nFirst, I need to look at the provided passages. Passage 2 mentions that the Right SRs, loyal to Kerensky, were defeated by the Bolsheviks during the Russian Civil War and subsequent persecution. The key here is to find when the civil war ended.\n\nLooking at Passage 3, it states the Russian Civil War lasted from November 1917 to October 1922. However, Passage 1 says the war ended in 1923 in terms of Red control being assured, even though some resistance continued until 1934. \n\nThe user's previous answer used 1923 as the end date based on Passage 1. But Passage 3's official end date is October 1922. The question is about when the war ended, which could be conflicting between the two passages. Since the answer must use the provided context, I need to check which passage is more relevant. \n\nThe answer should reference when the civil war ended as per the context. Since Passage 3 gives the official end date as October 1922, but Passage 1 mentions 1923 as when Red control was assured. The user's previous answer used 1923, so maybe that's the intended answer here. However,",
+      "<think>\nOkay, let's see. The user is asking when Alexander Kerensky was defeated by the Bolsheviks in the context of the Russian Civil War ending.\n\nFirst, I need to recall the information from the provided passages. The Russian Civil War is mentioned in several passages. Passage 3 states the war lasted from November 1917 to October 1922. Passage 1 says the war ended in 1923 in terms of Red control being assured, but there was continued resistance until 1934. Passage 2 mentions lesser battles continued until 1923. \n\nAlexander Kerensky was a leader during the Russian Revolution, part of the Provisional Government after the February Revolution in 1917. The Bolsheviks, led by Lenin, took power in the October Revolution of 1917. Kerensky was defeated during the October Revolution, which is part of the broader Russian Civil War. However, the civil war itself continued until 1922 or 1923 as per the passages.\n\nThe question is about when the civil war ended, which is when Kerensky's defeat is contextualized. Since the civil war is said to have ended in 1922 (Passage 3) or 1923 (Passage 1), but Kerensky's defeat was in 1917. However, the user is asking when the civil war ended",
+      "<think>\nOkay, let's break this down. The user is asking when the civil war ended, in which Alexander Kerensky was defeated by the Bolsheviks. First, I need to check the context passages for information about Kerensky's defeat and the end of the civil war.\n\nLooking at Passage 3: The Kerensky\u2013Krasnov uprising was an attempt by Kerensky to regain power after the Bolsheviks overthrew his Provisional Government in Petrograd. Passage 4 states that his government was overthrown by the Bolsheviks in the October Revolution on 7 November 1917. \n\nNow, the Russian Civil War's end is mentioned in Passage 2 as ending in October 1922. Passage 1 adds that Red control was assured by 1923, with some resistance in Central Asia until 1934. Passage 5 notes that lesser battles continued until 1923.\n\nSo, Kerensky's defeat happened during the October Revolution in 1917, but the civil war itself ended in 1922 (Passage 2) or 1923 (Passages 1 and 5). The answer should connect Kerensky's defeat in 1917 with the civil war ending in 1922 or 1923. However, the user is asking when the civil war ended, not when Kerensky was defeated.",
+      "<think>\nOkay, let's see. The user is asking when the civil war ended in which Alexander Kerensky was defeated by the Bolsheviks. First, I need to check the context passages for information about Kerensky's defeat and the end of the civil war.\n\nLooking at Passage 3: Alexander Kerensky's government was overthrown by the Bolsheviks in the October Revolution on 7 November 1917. That's when he was defeated. But the civil war's end is mentioned in Passage 2 as ending in 1923, with Red control assured, though some resistance continued until 1934. Passage 4 states the Russian Civil War lasted from November 1917 to October 1922. Passage 5 mentions uprisings continued until around 1924. \n\nSo the main civil war ended in October 1922 (Passage 4), but the broader conflict with some resistance lasted until 1923 (Passage 2) or even 1924 (Passage 5). The user is asking when the civil war ended in which Kerensky was defeated. Since Kerensky was defeated in 1917, but the civil war itself ended in 1922 according to Passage 4. However, Passage 2 says the war ended in 1923 in the sense that Red control was assured. The answer should"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.200 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.241 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.307 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.223 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.212 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "lambda": 0.01183055928065212,
+    "r2": -0.18621191791984604,
+    "hi_rate": [
+      0.0,
+      0.7692307692307693,
+      0.8666666666666667,
+      0.7142857142857143,
+      0.7272727272727273,
+      0.7692307692307693
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "Seven Brief Lessons on Physics was written by an Italian physicist that has worked in France since what year?",
+    "gold_answer": "2000",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "2000.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.911 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.819 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.819 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.819 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.819 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": 0.6436477874005573,
+    "r2": 0.6036005025444311,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "The Livesey Hal War Memorial commemorates the fallen of which war, that had over 60 million casualties?",
+    "gold_answer": "World War II",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "The Livesey Hall War Memorial commemorates the fallen of World War II, which had over 60 million casualties.",
+      "The Livesey Hall War Memorial commemorates the fallen of World War II, which had over 60 million casualties.",
+      "The Livesey Hall War Memorial commemorates the fallen of World War II, which had over 60 million casualties.",
+      "<think>\nOkay, let's see. The user is asking about the Livesey Hall War Memorial and which war it commemorates that had over 60 million casualties. The previous answer mentioned World War II, but I need to check the context passages again.\n\nLooking at Passage 1: It says the memorial commemorates the fallen of World War I and World War II from the South Suburban Gas Company. Passage 2 adds that it's a tribute to employees who served in the wars. Passage 4 mentions the designer. The other passages are about different memorials.\n\nThe user's question specifies \"which war\" with over 60 million casualties. World War II is known for having around 60 million deaths. But the Livesey Hall memorial includes both WWI and WWII. However, the previous answer mentioned WWII. Wait, the user's question says \"the fallen of which war\" implying a single war. But the passages say both. However, the user might be conflating the two. Since the previous answer mentioned WWII, but the correct answer based on the context is both. But the user is asking for the war with over 60 million casualties. Since both wars are mentioned in the memorial, but the 60 million figure is for WWII. However, the context doesn't specify the casualty numbers, only that it commemorates both. The answer should be based on the context. The passages don't mention the casualty numbers, so the answer is that the memorial",
+      "<think>\nOkay, let's tackle this. The user is asking about the Livesey Hall War Memorial and which war it commemorates that had over 60 million casualties. First, I need to check the provided passages.\n\nLooking at Passage 1: It states the memorial commemorates the fallen of both World War I and World War II from the South Suburban Gas Company. Passage 3 adds that it's a tribute to employees who served in the wars. Now, the user mentions a war with over 60 million casualties. From general knowledge, World War II had around 60 million deaths, while World War I had about 17 million. However, the passages don't specify casualty numbers. The user's question might be trying to connect the memorial's commemoration of both wars with the 60 million figure. But since the context doesn't mention the casualty numbers, I can't confirm which war that figure refers to. The answer should be based solely on the passages. The memorial commemorates both wars, but the user is asking for the specific war with over 60 million. Since the context doesn't provide the casualty numbers, the answer should be that the memorial commemorates both World War I and World War II. However, the user's question implies a single war. Wait, the previous answer mentioned World War II, but the passages don't state the casualty numbers. So the correct answer based on the context is that the Livesey Hall War Memorial commemor",
+      "<think>\nOkay, let's see. The user is asking about the Livesey Hall War Memorial and which war it commemorates that had over 60 million casualties. First, I need to check the provided passages.\n\nLooking at Passage 5: It says the Livesey Hall War Memorial commemorates the fallen of both World War I and World War II. The user mentions a war with over 60 million casualties. From general knowledge, World War II had around 60 million deaths, but the passages don't specify numbers. The other passages mention casualty figures for World War II (Passage 2 and 4) stating estimates up to 80 million. However, the question is about the Livesey Hall memorial. Since the memorial includes both wars, but the user is asking for the specific war with over 60 million casualties, which is likely World War II. However, the answer must be based solely on the provided passages. The passages don't explicitly link the 60 million figure to the Livesey Hall memorial. The correct answer is that the Livesey Hall War Memorial commemorates both World Wars, but the user is asking for the specific war with over 60 million. Since the context doesn't directly connect the 60 million to the memorial, but the memorial does commemorate WWII, which is associated with that figure in other passages. Wait, the user's question is phrased as \"which war, that had over 60 million casualties"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.185 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.185 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.185 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.427 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.416 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      0.0,
+      0.0,
+      0.0,
+      0.8,
+      0.5625,
+      0.5
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "Ralph Hefferline was a psychology professor at a university that is located in what city?",
+    "gold_answer": "New York City",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.854 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.854 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.854 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.854 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.854 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "Which dog's ancestors include Gordon and Irish Setters: the Manchester Terrier or the Scotch Collie?",
+    "gold_answer": "Scotch Collie",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "The Scotch Collie's ancestors include Gordon and Irish Setters, as stated in Passage 1. The Manchester Terrier is not mentioned in this context.",
+      "The Scotch Collie's ancestors include Gordon and Irish Setters (Passage 1). The Manchester Terrier is not mentioned in this context.",
+      "The Scotch Collie's ancestors include Gordon and Irish Setters (Passage 1). The Manchester Terrier is not mentioned in this context.",
+      "The Scotch Collie's ancestors include Gordon and Irish Setters (Passage 1). The Manchester Terrier is not mentioned in this context.",
+      "The Scotch Collie's ancestors include Gordon and Irish Setters (Passage 1). The Manchester Terrier is not mentioned in this context.",
+      "The Scotch Collie's ancestors include Gordon and Irish Setters (Passage 1). The Manchester Terrier is not mentioned in this context."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.063 \u2264 0.15 \u2192 stayed with BM25",
+      "Hop 3: drift=0.079 \u2264 0.15 \u2192 stayed with BM25",
+      "Hop 4: drift=0.079 \u2264 0.15 \u2192 stayed with BM25",
+      "Hop 5: drift=0.079 \u2264 0.15 \u2192 stayed with BM25",
+      "Hop 6: drift=0.079 \u2264 0.15 \u2192 stayed with BM25"
+    ],
+    "idi": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "Where is the company that Sachin Warrier worked for as a software engineer headquartered?",
+    "gold_answer": "Mumbai",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "<think>\nOkay, let's see. The user is asking where the company Sachin Warrier worked for as a software engineer is headquartered. Let me check the context passages.\n\nLooking at Passage 3: Sachin Warrier was a software engineer at Tata Consultancy Services in Kochi. The question is about the headquarters of that company. Wait, Tata Consultancy Services (TCS) is a well-known company. I remember that TCS is headquartered in Mumbai, India. But the passage only mentions Kochi as the location where he worked. However, the user is asking for the headquarters of the company, not where he worked. Since the passage states he was in Kochi, but the company's HQ might be different. But the answer must be based solely on the provided passages. The passage doesn't mention the headquarters of Tata Consultancy Services, only that he worked there in Kochi. Therefore, according to the given context, the answer isn't directly provided. Wait, but maybe the user is tricking me. The passage says \"working as a software engineer in Tata Consultancy Services in Kochi.\" So the company is TCS, but the headquarters isn't stated here. So the correct answer would be that the information isn't in the context. But wait, maybe I'm missing something. The user is asking where the company is headquartered. Since the passage only mentions Kochi as the location where Sachin worked, but not the headquarters. Therefore, the answer isn't",
+      "The company Sachin Warrier worked for as a software engineer, Tata Consultancy Services, is headquartered in Mumbai, Maharashtra.",
+      "<think>\nOkay, let's see. The user is asking where the company that Sachin Warrier worked for as a software engineer is headquartered.\n\nFirst, I need to check the context passages. Looking at Passage 1: It says Sachin Warrier was working as a software engineer in Tata Consultancy Services in Kochi. Wait, but the previous answer mentioned that Tata Consultancy Services is headquartered in Mumbai. But the user's question is about the headquarters, not where he worked. However, the previous answer might have inferred that, but the current context passages don't mention the headquarters. Wait, the user provided context passages only up to Passage 5, none of which mention the headquarters of Tata Consultancy Services. The previous answer was given based on external knowledge, but according to the rules, I can only use the provided passages. \n\nWait, the user's current context passages don't mention the headquarters of Tata Consultancy Services. Passage 1 says he worked there in Kochi, but the headquarters isn't stated here. The previous answer was \"Mumbai, Maharashtra,\" but that's not in the current context. So according to the rules, if the context doesn't have the answer, I should say \"Not found in context.\" But the user's previous answer included that info, but maybe the current context doesn't. Let me check again.\n\nLooking at all the passages again: Passages 1-5 talk about Sachin Warrier's roles and some about Sachin",
+      "The company Sachin Warrier worked for, Tata Consultancy Services, is headquartered in Mumbai, Maharashtra (Passage 3).",
+      "<think>\nOkay, let's see. The user is asking where the company that Sachin Warrier worked for as a software engineer is headquartered.\n\nFirst, I need to check the context passages. From Passage 1, it says Sachin Warrier was working as a software engineer at Tata Consultancy Services in Kochi. But the question is about the headquarters of the company, not where he worked. \n\nLooking at Passage 3: Tata Consultancy Services is a subsidiary of the Tata Group and operates in 46 countries. However, the headquarters isn't mentioned here. Wait, the previous answer mentioned that the company is headquartered in Mumbai, Maharashtra, based on Passage 3. But in the current context, the user provided Passage 3 again, which doesn't explicitly state the headquarters. The previous answer might have inferred it, but according to the given passages, there's no direct mention of the headquarters. \n\nWait, the user's previous answer stated that the headquarters is in Mumbai based on Passage 3, but looking at Passage 3 again, it only says it's a subsidiary of Tata Group and operates in 46 countries. The headquarters isn't specified here. So maybe the previous answer was incorrect. However, the user is now asking the same question again. Since the current context doesn't include any passage that mentions the headquarters, the correct answer should be \"Not found in context.\" But wait, the user included Passage 3 again. Maybe there's a common knowledge",
+      "Not found in context."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.491 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.153 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.485 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.226 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.386 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "lambda": 0.07116653950316683,
+    "r2": 0.23679179866017297,
+    "hi_rate": [
+      0.7619047619047619,
+      0.0,
+      0.6875,
+      0.0,
+      0.7647058823529411,
+      1.0
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "A Japanese manga series based on a 16 year old high school student Ichitaka Seto, is written and illustrated by someone born in what year?",
+    "gold_answer": "1962",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.951 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.951 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.951 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.951 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.951 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "The battle in which Giuseppe Arimondi lost his life secured what for Ethiopia?",
+    "gold_answer": "sovereignty",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "The battle in which Giuseppe Arimondi lost his life, the Battle of Adwa, secured Ethiopian sovereignty by decisively defeating Italian forces and preserving the country's independence.",
+      "The battle in which Giuseppe Arimondi lost his life, the Battle of Adwa, secured Ethiopian sovereignty by decisively defeating Italian forces.",
+      "The battle in which Giuseppe Arimondi lost his life, the Battle of Adwa, secured Ethiopian sovereignty by decisively defeating Italian forces.",
+      "The battle in which Giuseppe Arimondi died, the Battle of Adwa, secured Ethiopian sovereignty by decisively defeating Italian forces.",
+      "The battle in which Giuseppe Arimondi died, the Battle of Adwa, secured Ethiopian sovereignty by decisively defeating Italian forces.",
+      "The battle in which Giuseppe Arimondi died, the Battle of Adwa, secured Ethiopian sovereignty by decisively defeating Italian forces."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.160 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.157 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.157 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.198 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.198 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "Alfred Balk served as the secretary of the Committee on the Employment of Minority Groups in the News Media under which United States Vice President?",
+    "gold_answer": "Nelson Rockefeller",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "<think>\nOkay, let's see. The user is asking about Alfred Balk serving as the secretary of the Committee on the Employment of Minority Groups in the News Media under which U.S. Vice President.\n\nFirst, I need to check the context passages. Passage 1 mentions Alfred Balk as the secretary of New York Governor Nelson Rockefeller's Committee on the Employment of Minority Groups in the News Media. So, the committee was under Governor Rockefeller. But the question is about a U.S. Vice President. \n\nNow, looking at the other passages, Passage 2 talks about Executive Order 10925 and the President's Committee on Equal Employment Opportunity chaired by Vice President Lyndon Johnson. However, that's a different committee. Passage 3 mentions Gerald Ford as Vice President under the 25th Amendment, but there's no connection to the committee in question. \n\nPassage 4 and 5 discuss the President pro tempore of the Senate, which doesn't relate to the committee. So, the only relevant info is from Passage 1, which links Alfred Balk to Governor Nelson Rockefeller's committee. The question is about a Vice President, but Rockefeller was a Governor, not a Vice President. Therefore, there's no information in the provided passages that connects the committee to a U.S. Vice President. \n\nWait, maybe there's confusion between Governor and Vice President? The user might be mixing roles. But according to the given contexts, there's no mention of a Vice President being",
+      "Not found in context.",
+      "<think>\nOkay, let's see. The user is asking about Alfred Balk serving as secretary under which U.S. Vice President. Let me check the passages.\n\nLooking at Passage 4: It says he was secretary of New York Governor Nelson Rockefeller's Committee on the Employment of Minority Groups in the News Media. Wait, Nelson Rockefeller was a governor, not a vice president. But the question is about a U.S. Vice President. Hmm. Did Rockefeller ever serve as VP? Let me think. Oh, right, Nelson Rockefeller was Vice President under Gerald Ford from 1974 to 1977. So the committee was under Governor Rockefeller, but if the question is about the Vice President, then the answer would be Nelson Rockefeller as VP. But the passage only mentions his role as governor. The user's question is tricky because it's asking under which VP, but the passage only mentions the governor position. However, since Rockefeller was VP at the time, maybe that's the connection. But the passage doesn't explicitly state that the committee was under the Vice President's office. It just says New York Governor's committee. So maybe the answer isn't here. Wait, the user's previous answer was \"Not found in context.\" But maybe I need to check again. The passage says \"New York Governor Nelson Rockefeller's Committee...\" So the committee was under the governor, not the VP. Unless the user is conflating the two roles. But since the passage doesn't mention",
+      "Not found in context.",
+      "<think>\nOkay, let's see. The user is asking about Alfred Balk serving as secretary under which U.S. Vice President. Let me check the passages.\n\nLooking at Passage 4: It says he was secretary of New York Governor Nelson Rockefeller's Committee on the Employment of Minority Groups in the News Media. Wait, Nelson Rockefeller was a governor, not a vice president. But the question is about a U.S. Vice President. Hmm. Did Rockefeller ever serve as VP? Let me think. Oh, right, Nelson Rockefeller was Vice President under Gerald Ford from 1974 to 1977. So the committee was under Governor Rockefeller, but if the question is about the Vice President, then the answer would be Nelson Rockefeller as VP. But the passage only mentions his role as governor. The user's question is tricky because it's asking under which VP, but the passage only mentions the governor position. However, since Rockefeller was VP at the time, maybe that's the connection. But the passage doesn't explicitly state that the committee was under the Vice President's office. It just says New York Governor's committee. So maybe the answer isn't here. Wait, the user's previous answer was \"Not found in context.\" But maybe I need to check again. The passage says \"New York Governor Nelson Rockefeller's Committee...\" So the committee was under the governor, not the VP. Unless the user is conflating the roles. Since the question is about the U.S",
+      "Not found in context."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.367 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.933 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.496 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.933 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.496 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "lambda": 0.2141278616206305,
+    "r2": 0.08316457040799463,
+    "hi_rate": [
+      0.8125,
+      1.0,
+      0.9523809523809523,
+      1.0,
+      0.9523809523809523,
+      1.0
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "A medieval fortress in Dirleton, East Lothian, Scotland borders on the south side of what coastal area?",
+    "gold_answer": "Yellowcraig",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "Dirleton Castle borders the south shore of the Firth of Forth. (Passage 4)",
+      "Dirleton Castle borders the south shore of the Firth of Forth. (Passage 1, Passage 4)",
+      "Dirleton Castle, a medieval fortress in Dirleton, East Lothian, borders the south shore of the Firth of Forth. (Passage 1, Passage 4)",
+      "The medieval fortress borders the south shore of the Firth of Forth. (Passage 1, Passage 3)",
+      "The medieval fortress in Dirleton, East Lothian, Scotland (Dirleton Castle) borders the south shore of the Firth of Forth. (Passage 3, Passage 5)",
+      "The medieval fortress in Dirleton, East Lothian, Scotland (Dirleton Castle) borders the south shore of the Firth of Forth. (Passage 2)"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.381 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.379 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.159 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.333 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.118 \u2264 0.15 \u2192 stayed with BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      0.5,
+      0.5,
+      0.5,
+      1.0,
+      0.5,
+      0.5
+    ],
+    "n_switches": 2
+  },
+  {
+    "question": "Who is the writer of this song that was inspired by words on a tombstone and was the first track on the box set Back to Mono?",
+    "gold_answer": "Phil Spector",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "<think>\nOkay, let's see. The user is asking for the writer of a song that was inspired by words on a tombstone and was the first track on the Back to Mono box set.\n\nFirst, I need to check the passages provided. Let me go through each one. \n\nPassage 1 talks about the Nashville Rebel box set. The first track is \"Jole Blon\" by Buddy Holly, and the last is \"I Do Believe\" by Don Was. But the question is about the Back to Mono set, so maybe not relevant here.\n\nPassage 2 mentions \"To Know Him Is to Love Him\" written by Phil Spector, inspired by his father's tombstone. That fits the part about the tombstone inspiration.\n\nPassage 3 is about Back to Mono (1958\u20131969). It includes a booklet with an essay by Tom Wolfe. The first track here would be part of this set. But does it mention the song writer? Wait, the question links the song to both the tombstone inspiration and being the first track on Back to Mono. \n\nPassage 5 also mentions \"To Know Him Is to Love Him\" was first recorded by the Teddy Bears, but the writer is still Phil Spector according to Passage 2. \n\nNow, does Passage 3 specify which song is the first track? The passage doesn't explicitly state the first track's title or writer. However, the question connects the song to",
+      "Phil Spector wrote \"To Know Him Is to Love Him,\" inspired by his father's tombstone, which is the first track on the Back to Mono box set.",
+      "Phil Spector wrote \"To Know Him Is to Love Him,\" inspired by his father's tombstone, and it is the first track on the *Back to Mono (1958\u20131969)* box set.",
+      "Phil Spector wrote \"To Know Him Is to Love Him,\" inspired by his father's tombstone, and it is the first track on the *Back to Mono (1958\u20131969)* box set.",
+      "Phil Spector wrote \"To Know Him Is to Love Him,\" inspired by his father's tombstone, and it is the first track on the *Back to Mono (1958\u20131969)* box set.",
+      "Phil Spector wrote \"To Know Him Is to Love Him,\" inspired by his father's tombstone, and it was the first track on the *Back to Mono (1958\u20131969)* box set."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.257 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.329 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.300 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.300 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.300 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      0.8888888888888888,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "What type of forum did a former Soviet statesman initiate?",
+    "gold_answer": "Organizations could come together to address global issues",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.922 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.922 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.922 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.922 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.922 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "Which British first-generation jet-powered medium bomber was used in the South West Pacific theatre of World War II?",
+    "gold_answer": "English Electric Canberra",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "<think>\nOkay, let's see. The user is asking which British first-generation jet-powered medium bomber was used in the South West Pacific theatre of World War II.\n\nFirst, I need to check the context passages provided. Let's go through them one by one.\n\nPassage 1 mentions the English Electric Canberra as a British first-generation jet-powered medium bomber made in the 1950s. But the South West Pacific theatre was during World War II, which ended in 1945. The Canberra was developed post-WWII, so it probably wasn't used there.\n\nPassage 2 talks about the South West Pacific theatre during WWII. Passage 4 mentions the South West Pacific Area command. Passage 5 says No. 12 Squadron RAAF was formed in 1939 and saw combat there. However, the question is about a British bomber. The squadron is RAAF (Royal Australian Air Force), which is part of the Allies, but the question specifies British.\n\nPassage 3 is about the Tupolev Tu-12, a Soviet jet bomber developed after WWII from the Tu-2. The Tu-2 was piston-engined. Since it's Soviet and post-WWII, that's not relevant.\n\nSo, the only British jet bomber mentioned is the English Electric Canberra (Passage 1), but it was made in the 1950s, after WWII. The South West Pacific theatre was during WWII (1",
+      "<think>\nOkay, let's tackle this question. The user is asking which British first-generation jet-powered medium bomber was used in the South West Pacific theatre of World War II. \n\nFirst, I need to check the context passages provided. Let's go through them one by one.\n\nPassage 1 mentions No. 2 Squadron RAAF using English Electric Canberras in the Malayan Emergency and Vietnam War, but not in WWII. The South West Pacific theatre is mentioned for WWII, but the Canberras were used later.\n\nPassage 2 states that the English Electric Canberra is a British first-gen jet bomber made in the 1950s. Since WWII ended in 1945, the Canberras couldn't have been used in WWII.\n\nPassage 3 says the Canberra became the RAF's first jet bomber in 1951, again post-WWII.\n\nPassage 4 talks about No. 12 Squadron RAAF in WWII, but they were part of the RAAF, not British, and the passage doesn't mention the specific bomber they used.\n\nPassage 5 mentions the Canberra was developed in the mid-to-late 1940s, after WWII's 1944 requirement. So, the Canberras were developed post-WWII.\n\nThe question is about a British jet bomber used in WWII's South West Pacific. The only British jet bomber mentioned is the Canberra, but it was developed after",
+      "<think>\nOkay, let's see. The user is asking which British first-generation jet-powered medium bomber was used in the South West Pacific theatre of World War II. Let me check the provided passages.\n\nPassage 1 mentions No. 2 Squadron RAAF using English Electric Canberras in the Malayan Emergency and Vietnam War, but not in WWII. The South West Pacific theatre is mentioned for WWII, but the Canberras were used later.\n\nPassage 2 states that the English Electric Canberra is a British first-gen jet bomber made in the 1950s. Since WWII ended in 1945, the Canberras couldn't have been used in WWII.\n\nPassage 3 says the Canberra became the RAF's first jet bomber in 1951, again post-WWII.\n\nPassage 4 talks about No. 12 Squadron RAAF in WWII, but they were part of the RAAF, not British, and the passage doesn't mention the specific bomber they used.\n\nPassage 5 mentions the Canberra was developed in the mid-to-late 1940s, after WWII's 1944 requirement. So, the Canberras were developed post-WWII.\n\nThe question is about a British jet bomber used in WWII's South West Pacific. The only British jet bomber mentioned is the Canberra, but it was developed after WWII. The RAAF squadrons in WWII (Passage 1 and",
+      "<think>\nOkay, let's tackle this question. The user is asking which British first-generation jet-powered medium bomber was used in the South West Pacific theatre of World War II. Let me look through the provided passages to find the answer.\n\nFirst, Passage 1 mentions No. 2 Squadron RAAF using English Electric Canberras in the Malayan Emergency and Vietnam War, but not in WWII. The South West Pacific theatre is mentioned for WWII, but the Canberras were used later. \n\nPassage 2 states that the English Electric Canberra became the RAF's first jet-powered bomber in May 1951. Since WWII ended in 1945, the Canberras couldn't have been used during the war. \n\nPassage 3 describes the Canberra as a British first-generation jet bomber made in the 1950s. Again, that's post-WWII. \n\nPassage 4 says the Canberra was developed in the mid-to-late 1940s in response to a 1944 requirement. However, development doesn't mean it was in service during WWII. \n\nPassage 5 talks about No. 12 Squadron RAAF in WWII but doesn't mention the specific bomber they used. \n\nSo, the only British jet bomber mentioned is the Canberra, but it was introduced after WWII. The RAAF squadrons in the South West Pacific during WWII might have used other aircraft, but the passages don't specify",
+      "Not found in context. The English Electric Canberra (a British first-generation jet-powered medium bomber) was introduced in 1951 (Passage 2), after World War II ended in 1945. No other British jet bombers are mentioned in the provided context.",
+      "<think>\nOkay, let's see. The user is asking which British first-gen jet-powered medium bomber was used in the South West Pacific theatre of World War II.\n\nLooking at the passages, the English Electric Canberra is mentioned as a British first-gen jet bomber. Passage 1 says it's a British first-gen jet medium bomber from the 1950s. Passage 2 mentions it was introduced to RAF in 1951. Passage 4 talks about No. 2 Squadron RAAF using Canberras in the Malayan Emergency and Vietnam War, but also mentions they saw action as a bomber unit in the South West Pacific in WWII. Wait, but the Canberra was introduced in 1951, which is after WWII ended in 1945. So how could it have been used in WWII?\n\nHmm, maybe there's confusion here. The squadron (No. 2 Squadron RAAF) did use Canberras in later conflicts, but the passage says they \"saw action as a bomber unit in the South West Pacific theatre of World War II\" before being equipped with Canberras. So the Canberras weren't used in WWII because they came later. The answer would be that the Canberra wasn't used in WWII. But the user is asking which British bomber was used in that theatre. The context doesn't mention any other British jet bombers. The previous answer said the Canberra wasn't used in WWII because it was introduced in 1"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.217 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.234 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.220 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.226 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.411 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      0.5,
+      0.6875,
+      0.6875,
+      0.5625,
+      0.6666666666666666,
+      0.7058823529411765
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "Which year and which conference was the 14th season for this conference as part of the NCAA Division that the Colorado Buffaloes played in with a record of 2-6 in conference play?",
+    "gold_answer": "2009 Big 12 Conference",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "2009 Big 12 Conference. The 2009 Colorado Buffaloes had a 2\u20136 record in Big 12 play during its 14th season as part of NCAA Division I",
+      "2009 Big 12 Conference. The 2009 Colorado Buffaloes football team had a 2\u20136 record in Big 12 play during their 14th season in NCAA Division I.",
+      "2009 Big 12 Conference. The 2009 Big 12 season was its 14th in NCAA Division I FBS (Passage 5), during which the Buffaloes went 2\u20136 in conference play (Passage 1).",
+      "<think>\nOkay, let's see. The user is asking which year and conference was the 14th season for the conference that the Colorado Buffaloes were part of, with a 2-6 record in conference play.\n\nFirst, I need to check the passages for mentions of the 14th season. Passage 1 says the 2009 Big 12 Conference football season was the 14th season for the Big 12 as part of the 2009 NCAA Division I FBS season. That's important. \n\nNext, looking at the Buffaloes' record. Passage 2 states that the 2009 Colorado Buffaloes finished with a 3-9 overall record and 2-6 in Big 12 play. So they were in the Big 12 Conference in 2009 with a 2-6 conference record. \n\nThe question ties the 14th season of the conference to the Buffaloes' 2-6 record. Since Passage 1 links the 14th season to 2009 Big 12, and Passage 2 confirms the Buffaloes' 2-6 in that conference that year, the answer should be 2009 Big 12. \n\nI need to make sure there's no other mention of the 14th season elsewhere. Passage 5 talks about the 2014",
+      "2009 Big 12 Conference. The 2009 Big 12 season was its 14th as part of NCAA Division I FBS (Passage 2), and the Buffal",
+      "2009 Big 12 Conference. The 2009 Big 12 season was its 14th in NCAA Division I FBS (Passage 1), and the"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.218 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.254 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.345 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.211 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.483 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      0.5,
+      0.5,
+      0.5,
+      0.5833333333333334,
+      0.5,
+      0.5
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "In 1991 Euromarch\u00e9 was bought by a chain that operated how any hypermarkets at the end of 2016?",
+    "gold_answer": "1,462",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "<think>\nOkay, let's see. The user is asking about Euromarch\u00e9 being bought in 1991 by a chain that operated how many hypermarkets at the end of 2016. Hmm.\n\nFirst, I need to check the context passages provided. Let me go through each one. Passage 1 mentions Carrefour with 1,462 hypermarkets in 2016. Passage 2 talks about SavaCentre, which was a joint venture between Sainsbury's and BHS. Passage 3 is about Lewis's department stores. Passage 4 mentions Uno-X, where Norsk Hydro acquired Danish outlets and later bought Swedish Uno-X from Burmah. Passage 5 again mentions SavaCentre as the only UK hypermarket chain at inception.\n\nThe question is about Euromarch\u00e9 being bought in 1991. Wait, none of the passages mention Euromarch\u00e9 directly. The user is asking which chain bought Euromarch\u00e9 in 1991 and how many hypermarkets that chain had in 2016. The passages don't reference Euromarch\u00e9 at all. The closest is SavaCentre, but that's in the UK and the timeline doesn't match. Carrefour is mentioned in Passage 1, but there's no link to Euromarch\u00e9 here. Since none of the provided contexts mention Euromarch\u00e9 or its acquisition, the answer should be \"Not found",
+      "Carrefour bought Euromarch\u00e9 in 1991 (Passage 5). By the",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.259 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.309 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.891 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.891 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.891 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": 0.6436477874005573,
+    "r2": 0.6036005025444311,
+    "hi_rate": [
+      0.75,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "What race track in the midwest hosts a 500 mile race eavery May?",
+    "gold_answer": "Indianapolis Motor Speedway",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499729, Requested 727. Please try again in 1m18.7968s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499723, Requested 938. Please try again in 1m54.2208s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499715, Requested 938. Please try again in 1m52.8384s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499707, Requested 938. Please try again in 1m51.455999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499699, Requested 915. Please try again in 1m46.0992s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499693, Requested 938. Please try again in 1m49.0368s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.938 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.936 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.935 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.925 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.932 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "In what city did the \"Prince of tenors\" star in a film based on an opera by Giacomo Puccini?",
+    "gold_answer": "Rome",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "<think>\nOkay, let's see. The user is asking about the city where the \"Prince of tenors\" starred in a film based on a Puccini opera. First, I need to figure out which of the context passages mention a film based on Puccini's opera.\n\nLooking at the passages, Passage 2 mentions a 1956 film called Tosca, which is based on Puccini's opera. Passage 5 talks about La Boh\u00e8me, a 1988 film. Both are films based on Puccini's operas. Now, the question is about the city where the \"Prince of tenors\" starred. The term \"Prince of tenors\" usually refers to Luciano Pavarotti, but the context doesn't mention any specific person by that title. However, the question is about the city where the film was made or set. \n\nThe 1956 Tosca film (Passage 2) is based on the opera Tosca. The 1988 La Boh\u00e8me film (Passage 5) is another. The user is asking for the city. The answer might be in the film's production details. The 1956 Tosca film is a 1956 production, but the context doesn't specify the city. The La Boh\u00e8me film is an Italian-French production, but again, the city isn't mentioned in the passages. Since none of the passages provide",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499988, Requested 985. Please try again in 2m48.1344s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499984, Requested 879. Please try again in 2m29.1264s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499982, Requested 879. Please try again in 2m28.7808s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499980, Requested 879. Please try again in 2m28.435199999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499978, Requested 884. Please try again in 2m28.9536s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.230 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=1.033 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=1.027 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=1.030 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=1.020 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      0.75,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "Ellie Goulding worked with what other writers on her third studio album, Delirium?",
+    "gold_answer": "Max Martin, Savan Kotecha and Ilya Salmanzadeh",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499952, Requested 673. Please try again in 1m48s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499950, Requested 804. Please try again in 2m10.2912s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499948, Requested 809. Please try again in 2m10.809599999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499946, Requested 814. Please try again in 2m11.328s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499944, Requested 808. Please try again in 2m9.945599999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499942, Requested 813. Please try again in 2m10.464s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.940 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.939 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.937 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.929 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.936 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "Which Australian city founded in 1838 contains a boarding school opened by a Prime Minister of Australia and named after a school in London of the same name.",
+    "gold_answer": "Marion, South Australia",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499901, Requested 719. Please try again in 1m47.136s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499898, Requested 832. Please try again in 2m6.143999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499896, Requested 837. Please try again in 2m6.6624s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499894, Requested 832. Please try again in 2m5.4528s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499891, Requested 832. Please try again in 2m4.9344s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499888, Requested 832. Please try again in 2m4.416s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=1.054 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=1.044 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=1.052 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=1.042 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=1.049 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "D1NZ is a series based on what oversteering technique?",
+    "gold_answer": "Drifting",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499861, Requested 580. Please try again in 1m16.204799999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499857, Requested 789. Please try again in 1m51.6288s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499854, Requested 789. Please try again in 1m51.1104s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499850, Requested 789. Please try again in 1m50.4192s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499846, Requested 789. Please try again in 1m49.728s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499843, Requested 788. Please try again in 1m49.0368s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=1.006 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=1.005 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=1.001 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=1.009 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=1.010 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "who is younger Keith Bostic or Jerry Glanville ?",
+    "gold_answer": "Keith Bostic",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499815, Requested 605. Please try again in 1m12.576s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499811, Requested 769. Please try again in 1m40.224s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499807, Requested 769. Please try again in 1m39.5328s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499798, Requested 770. Please try again in 1m38.1504s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499795, Requested 770. Please try again in 1m37.631999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499792, Requested 771. Please try again in 1m37.2864s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.927 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.925 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.924 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.927 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.925 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "According to the 2001 census, what was the population of the city in which Kirton End is located?",
+    "gold_answer": "35,124",
+    "model": "qwen/qwen3-32b",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499762, Requested 714. Please try again in 1m22.2528s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499759, Requested 857. Please try again in 1m46.4448s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499757, Requested 857. Please try again in 1m46.0992s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499754, Requested 857. Please try again in 1m45.5808s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499752, Requested 857. Please try again in 1m45.235199999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499750, Requested 862. Please try again in 1m45.7536s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.894 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.899 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.897 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.897 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.882 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 1
+  }
+]

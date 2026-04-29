@@ -1,0 +1,2452 @@
+[
+  {
+    "question": "What government position was held by the woman who portrayed Corliss Archer in the film Kiss and Tell?",
+    "gold_answer": "Chief of Protocol",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "What science fantasy young adult series, told in first person, has a set of companion books narrating the stories of enslaved worlds and alien species?",
+    "gold_answer": "Animorphs",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "The director of the romantic comedy \"Big Stone Gap\" is based in what New York city?",
+    "gold_answer": "Greenwich Village, New York City",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "2014 S/S is the debut album of a South Korean boy group that was formed by who?",
+    "gold_answer": "YG Entertainment",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "The debut album \"2014 S/S\" is of the South Korean group WINNER. However, the passage does not explicitly mention who formed WINNER. \n\nNot found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      0.6666666666666666,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "Who was known by his stage name Aladin and helped organizations improve their performance as a consultant?",
+    "gold_answer": "Eenasul Fateh",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "The arena where the Lewiston Maineiacs played their home games can seat how many people?",
+    "gold_answer": "3,677 seated",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "Who is older, Annie Morton or Terry Richardson?",
+    "gold_answer": "Terry Richardson",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "What is the name of the fight song of the university whose main campus is in Lawrence, Kansas and whose branch campuses are in the Kansas City metropolitan area?",
+    "gold_answer": "Kansas Song",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "What screenwriter with credits for \"Evolution\" co-wrote a film starring Nicolas Cage and T\u00e9a Leoni?",
+    "gold_answer": "David Weissman",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "What year did Guns N Roses perform a promo for a movie starring Arnold Schwarzenegger as a former New York Police detective?",
+    "gold_answer": "1999",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "The football manager who recruited David Beckham managed Manchester United during what timeframe?",
+    "gold_answer": "from 1986 to 2013",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "Brown State Fishing Lake is in a country that has a population of how many inhabitants ?",
+    "gold_answer": "9,984",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "The Vermont Catamounts men's soccer team currently competes in a conference that was formerly known as what from 1988 to 1996?",
+    "gold_answer": "the North Atlantic Conference",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "Roger O. Egeberg was Assistant Secretary for Health and Scientific Affairs during the administration of a president that served during what years?",
+    "gold_answer": "1969 until 1974",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "Which writer was from England, Henry Roth or Robert Erskine Childers?",
+    "gold_answer": "Robert Erskine Childers DSC",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "Which other Mexican Formula One race car driver has held the podium besides the Force India driver born in 1990?",
+    "gold_answer": "Pedro Rodr\u00edguez",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "This singer of A Rather Blustery Day also voiced what hedgehog?",
+    "gold_answer": "Sonic",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "Aside from the Apple Remote, what other device can control the program Apple Remote was originally designed to interact with?",
+    "gold_answer": "keyboard function keys",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "Which performance act has a higher instrument to person ratio, Badly Drawn Boy or Wolf Alice?",
+    "gold_answer": "Badly Drawn Boy",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "What was the father of Kasper Schmeichel voted to be by the IFFHS in 1992?",
+    "gold_answer": "World's Best Goalkeeper",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "Who was the writer of These Boots Are Made for Walkin' and who died in 2007?",
+    "gold_answer": "Barton Lee Hazlewood",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "The 2011\u201312 VCU Rams men's basketball team, led by third year head coach Shaka Smart, represented Virginia Commonwealth University which was founded in what year?",
+    "gold_answer": "1838",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "Kaiser Ventures corporation was founded by an American industrialist who became known as the father of modern American shipbuilding?",
+    "gold_answer": "Henry J. Kaiser",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "What is the name for the adventure in \"Tunnels and Trolls\", a game designed by Ken St. Andre?",
+    "gold_answer": "Arena of Khazan",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "When was Poison's album \"Shut Up, Make Love\" released?",
+    "gold_answer": "2000",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "Hayden is a singer-songwriter from Canada, but where does Buck-Tick hail from?",
+    "gold_answer": "Fujioka, Gunma",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "Which  French ace pilot and adventurer fly L'Oiseau Blanc",
+    "gold_answer": "Charles Eug\u00e8ne",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "Not found in context. However, Passage 3 mentions Fran\u00e7ois Coli as a French pilot and navigator, and Passage 2 mentions L'Oiseau Blanc. Fran\u00e7ois Coli and Charles Nungesser were the pilots who flew L'Oiseau Blanc.",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      0.5,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": 0.9901554255227769,
+    "r2": 0.8146807030175564,
+    "hi_rate": [
+      0.3333333333333333,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "Which band, Letters to Cleo or Screaming Trees, had more members?",
+    "gold_answer": "Letters to Cleo",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "Alexander Kerensky was defeated and destroyed by the Bolsheviks in the course of a civil war that ended when ?",
+    "gold_answer": "October 1922",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "Seven Brief Lessons on Physics was written by an Italian physicist that has worked in France since what year?",
+    "gold_answer": "2000",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "The Livesey Hal War Memorial commemorates the fallen of which war, that had over 60 million casualties?",
+    "gold_answer": "World War II",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "Ralph Hefferline was a psychology professor at a university that is located in what city?",
+    "gold_answer": "New York City",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "Which dog's ancestors include Gordon and Irish Setters: the Manchester Terrier or the Scotch Collie?",
+    "gold_answer": "Scotch Collie",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "Where is the company that Sachin Warrier worked for as a software engineer headquartered?",
+    "gold_answer": "Mumbai",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "A Japanese manga series based on a 16 year old high school student Ichitaka Seto, is written and illustrated by someone born in what year?",
+    "gold_answer": "1962",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "The battle in which Giuseppe Arimondi lost his life secured what for Ethiopia?",
+    "gold_answer": "sovereignty",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "Alfred Balk served as the secretary of the Committee on the Employment of Minority Groups in the News Media under which United States Vice President?",
+    "gold_answer": "Nelson Rockefeller",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "A medieval fortress in Dirleton, East Lothian, Scotland borders on the south side of what coastal area?",
+    "gold_answer": "Yellowcraig",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "Who is the writer of this song that was inspired by words on a tombstone and was the first track on the box set Back to Mono?",
+    "gold_answer": "Phil Spector",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "What type of forum did a former Soviet statesman initiate?",
+    "gold_answer": "Organizations could come together to address global issues",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "Which British first-generation jet-powered medium bomber was used in the South West Pacific theatre of World War II?",
+    "gold_answer": "English Electric Canberra",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "Which year and which conference was the 14th season for this conference as part of the NCAA Division that the Colorado Buffaloes played in with a record of 2-6 in conference play?",
+    "gold_answer": "2009 Big 12 Conference",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "In 1991 Euromarch\u00e9 was bought by a chain that operated how any hypermarkets at the end of 2016?",
+    "gold_answer": "1,462",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "What race track in the midwest hosts a 500 mile race eavery May?",
+    "gold_answer": "Indianapolis Motor Speedway",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "In what city did the \"Prince of tenors\" star in a film based on an opera by Giacomo Puccini?",
+    "gold_answer": "Rome",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "Ellie Goulding worked with what other writers on her third studio album, Delirium?",
+    "gold_answer": "Max Martin, Savan Kotecha and Ilya Salmanzadeh",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "Which Australian city founded in 1838 contains a boarding school opened by a Prime Minister of Australia and named after a school in London of the same name.",
+    "gold_answer": "Marion, South Australia",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "D1NZ is a series based on what oversteering technique?",
+    "gold_answer": "Drifting",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "Not found in context.",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "who is younger Keith Bostic or Jerry Glanville ?",
+    "gold_answer": "Keith Bostic",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "According to the 2001 census, what was the population of the city in which Kirton End is located?",
+    "gold_answer": "35,124",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "fixed",
+    "outputs": [
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]",
+      "[Generation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kq4zjadhegs8xxpmwta6jfvj` service tier `on_demand` on requests per day (RPD): Limit 1000, Used 1000, Requested 1. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'requests', 'code': 'rate_limit_exceeded'}}]"
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: fixed BM25",
+      "Hop 3: fixed BM25",
+      "Hop 4: fixed BM25",
+      "Hop 5: fixed BM25",
+      "Hop 6: fixed BM25"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 0
+  }
+]

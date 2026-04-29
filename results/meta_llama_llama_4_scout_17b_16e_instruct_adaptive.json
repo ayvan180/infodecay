@@ -1,0 +1,2452 @@
+[
+  {
+    "question": "What government position was held by the woman who portrayed Corliss Archer in the film Kiss and Tell?",
+    "gold_answer": "Chief of Protocol",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.836 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.836 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.836 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.836 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.836 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "What science fantasy young adult series, told in first person, has a set of companion books narrating the stories of enslaved worlds and alien species?",
+    "gold_answer": "Animorphs",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.991 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.991 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.991 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.991 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.991 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "The director of the romantic comedy \"Big Stone Gap\" is based in what New York city?",
+    "gold_answer": "Greenwich Village, New York City",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.857 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.857 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.857 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.857 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.857 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "2014 S/S is the debut album of a South Korean boy group that was formed by who?",
+    "gold_answer": "YG Entertainment",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "The debut album \"2014 S/S\" is of the South Korean group WINNER. However, the context does not explicitly state who formed WINNER. \n\nNot found in context.",
+      "YG Entertainment formed the South Korean boy group WINNER, which released the debut album \"2014 S/S\". WINNER debuted in 2014. \n\nYG Entertainment is the agency that formed WINNER.",
+      "YG Entertainment. The album \"2014 S/S\" is the debut album of South Korean group WINNER, which was formed by YG Entertainment.",
+      "YG Entertainment. The album \"2014 S/S\" is the debut album of South Korean group WINNER. WINNER was formed by YG Entertainment.",
+      "YG Entertainment. The album \"2014 S/S\" is the debut album of South Korean group WINNER. WINNER was formed by YG Entertainment.",
+      "YG Entertainment. The album \"2014 S/S\" is the debut album of South Korean group WINNER. WINNER was formed by YG Entertainment."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.231 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.283 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.160 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.205 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.205 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "lambda": 0.01183055928065212,
+    "r2": -0.18621191791984604,
+    "hi_rate": [
+      0.6666666666666666,
+      0.6666666666666666,
+      0.5,
+      0.6666666666666666,
+      0.6666666666666666,
+      0.6666666666666666
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "Who was known by his stage name Aladin and helped organizations improve their performance as a consultant?",
+    "gold_answer": "Eenasul Fateh",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.787 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.787 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.787 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.787 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.787 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "The arena where the Lewiston Maineiacs played their home games can seat how many people?",
+    "gold_answer": "3,677 seated",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "The Lewiston Maineiacs played their home games at the Androscoggin Bank Colis\u00e9e. However, the seating capacity of the Androscoggin Bank Colis\u00e9e is not mentioned in the provided context passages. Not found in context.",
+      "The Lewiston Maineiacs played their home games at the Androscoggin Bank Colis\u00e9e, which has a capacity of 4,000 people (3,677 seated). \nThe arena can seat 3,677 people.",
+      "The Lewiston Maineiacs played their home games at the Androscoggin Bank Colis\u00e9e, which has a seated capacity of 3,677 people. The arena's total capacity is 4,000. \n\nAlternatively: 3,677 people.",
+      "The Androscoggin Bank Colis\u00e9e, where the Lewiston Maineiacs played their home games, has a seated capacity of 3,677 people. Alternatively, it can seat 3,677 people. \n\nOr simply: 3,677.",
+      "3,677.",
+      "Not found in context."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.401 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.202 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.214 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.370 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.939 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "lambda": 0.18339213355474696,
+    "r2": -0.004667709439221346,
+    "hi_rate": [
+      0.6666666666666666,
+      0.5,
+      0.6666666666666666,
+      0.6666666666666666,
+      1.0,
+      1.0
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "Who is older, Annie Morton or Terry Richardson?",
+    "gold_answer": "Terry Richardson",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "Annie Morton was born in 1970 and Terry Richardson was born in 1965. Therefore, Terry Richardson is older.",
+      "Terry Richardson was born in 1965 and Annie Morton was born in 1970. Therefore, Terry Richardson is older.",
+      "Terry Richardson was born in 1965 and Annie Morton was born in 1970, so Terry Richardson is older.",
+      "Terry Richardson was born in 1965 and Annie Morton was born in 1970, so Terry Richardson is older.",
+      "Terry Richardson was born in 1965 and Annie Morton was born in 1970, so Terry Richardson is older.",
+      "Terry Richardson was born in 1965 and Annie Morton in 1970, so Terry Richardson is older."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.123 \u2264 0.15 \u2192 stayed with BM25",
+      "Hop 3: drift=0.137 \u2264 0.15 \u2192 stayed with BM25",
+      "Hop 4: drift=0.133 \u2264 0.15 \u2192 stayed with BM25",
+      "Hop 5: drift=0.133 \u2264 0.15 \u2192 stayed with BM25",
+      "Hop 6: drift=0.133 \u2264 0.15 \u2192 stayed with BM25"
+    ],
+    "idi": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      0.5,
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "What is the name of the fight song of the university whose main campus is in Lawrence, Kansas and whose branch campuses are in the Kansas City metropolitan area?",
+    "gold_answer": "Kansas Song",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "The university with a main campus in Lawrence, Kansas, and branch campuses in the Kansas City metropolitan area is the University of Kansas. The fight song of the University of Kansas is \"Kansas Song (We\u2019re From Kansas)\".",
+      "The university with a main campus in Lawrence, Kansas, and branch campuses in the Kansas City metropolitan area is the University of Kansas. Its fight song is \"Kansas Song (We\u2019re From Kansas)\".",
+      "The university with a main campus in Lawrence, Kansas, and branch campuses in the Kansas City metropolitan area is the University of Kansas. Its fight song is \"Kansas Song (We\u2019re From Kansas)\".",
+      "The university with a main campus in Lawrence, Kansas, and branch campuses in the Kansas City metropolitan area is the University of Kansas. Its fight song is \"Kansas Song (We\u2019re From Kansas)\". \n\nAlternatively, a more concise answer:\nThe fight song is \"Kansas Song (We\u2019re From Kansas)\". The university is the University of Kansas.",
+      "The university with a main campus in Lawrence, Kansas, and branch campuses in the Kansas City metropolitan area is the University of Kansas. Its fight song is \"Kansas Song (We\u2019re From Kansas)\". \n\nAlternatively, a more concise answer:\nThe university is the University of Kansas, and its fight song is \"Kansas Song (We\u2019re From Kansas)\".",
+      "The university with a main campus in Lawrence, Kansas, and branch campuses in the Kansas City metropolitan area is the University of Kansas, and its fight song is \"Kansas Song (We\u2019re From Kansas)\"."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.119 \u2264 0.15 \u2192 stayed with BM25",
+      "Hop 3: drift=0.084 \u2264 0.15 \u2192 stayed with BM25",
+      "Hop 4: drift=0.084 \u2264 0.15 \u2192 stayed with BM25",
+      "Hop 5: drift=0.120 \u2264 0.15 \u2192 stayed with BM25",
+      "Hop 6: drift=0.112 \u2264 0.15 \u2192 stayed with BM25"
+    ],
+    "idi": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "What screenwriter with credits for \"Evolution\" co-wrote a film starring Nicolas Cage and T\u00e9a Leoni?",
+    "gold_answer": "David Weissman",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "David Weissman is the screenwriter with credits for \"Evolution\" who co-wrote \"The Family Man\", a film starring Nicolas Cage and T\u00e9a Leoni. Weissman co-wrote \"The Family Man\" with David Diamond. Weissman is also credited as a screenwriter for \"Evolution\".",
+      "David Weissman, a screenwriter with credits for \"Evolution\", co-wrote \"The Family Man\", a film starring Nicolas Cage and T\u00e9a Leoni, with David Diamond. Weissman is credited as a screenwriter for \"The Family Man\" (2000) and \"Evolution\" (2001).",
+      "David Weissman, a screenwriter with credits for \"Evolution\", co-wrote \"The Family Man\", a film starring Nicolas Cage and T\u00e9a Leoni, with David Diamond.",
+      "David Weissman, who also worked on \"Evolution\", co-wrote \"The Family Man\" with David Diamond. This film starred Nicolas Cage and T\u00e9a Leoni.",
+      "David Weissman, who also worked on \"Evolution\", co-wrote \"The Family Man\" with David Diamond. This film starred Nicolas Cage and T\u00e9a Leoni.",
+      "David Weissman, who also worked on \"Evolution\", co-wrote \"The Family Man\" with David Diamond. This film starred Nicolas Cage and T\u00e9a Leoni."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.272 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.252 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.271 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.341 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.341 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "What year did Guns N Roses perform a promo for a movie starring Arnold Schwarzenegger as a former New York Police detective?",
+    "gold_answer": "1999",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "The movie starring Arnold Schwarzenegger as a former New York Police detective is \"End of Days\" (Passage 3). Guns N' Roses performed a promo for a song, \"Oh My God\", sent to radio stations in November 1999 (Passage 4), which was for the soundtrack of the film \"End of Days\". Therefore, the year is 1999.",
+      "The year Guns N' Roses performed a promo for the movie starring Arnold Schwarzenegger as a former New York Police detective is 1999. The movie is \"End of Days\" and the promo was for the song \"Oh My God\". The promo was sent to radio stations in November 1999.",
+      "The year is 1999. The movie is \"End of Days\" and the promo was for the song \"Oh My God\". The promo was sent to radio stations in November 1999.",
+      "The year was 1999. The movie was \"End of Days\", in which Arnold Schwarzenegger starred as a former New York Police Department detective. The promo was for the song \"Oh My God\" by Guns N' Roses.",
+      "The year was 1999. The movie was \"End of Days\", in which Arnold Schwarzenegger starred as a former New York Police Department detective. The promo was for the song \"Oh My God\" by Guns N' Roses.",
+      "The year was 1999. The movie was \"End of Days\", in which Arnold Schwarzenegger starred as a former New York Police Department detective. The promo was for the song \"Oh My God\" by Guns N' Roses."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.310 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.186 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.558 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.253 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.253 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "The football manager who recruited David Beckham managed Manchester United during what timeframe?",
+    "gold_answer": "from 1986 to 2013",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "Not found in context.",
+      "The football manager who managed Manchester United and was associated with recruiting David Beckham is not explicitly mentioned in the context. However, Sir Matt Busby managed Manchester United from 1945 to 1969. Not found in context if it was another manager.",
+      "Not found in context.",
+      "Sir Matt Busby managed Manchester United from 1945 to 1969. He is the one who recruited David Beckham, although it is not directly stated in passages, Sir Matt Busby was United manager when Beckham was a youth player.",
+      "Not found in context.",
+      "Sir Matt Busby managed Manchester United from 1945 to 1969. Therefore, if Sir Matt Busby recruited David Beckham, he managed Manchester United during 1945-1969. However, Passage 2 mentions David Beckham Academy which implies David Beckham was already an established footballer; hence we cannot confirm he was recruited by Matt Busby. Nonetheless, according to the information on Sir Matt Busby, he managed Manchester United from 1945 to 1969."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.904 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.164 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.904 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.221 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.904 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      0.3333333333333333,
+      1.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "Brown State Fishing Lake is in a country that has a population of how many inhabitants ?",
+    "gold_answer": "9,984",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "The population of the country where Brown State Fishing Lake is located is not directly provided. However, Passage 2 mentions that the population of Brown County, Kansas, where the lake is located, was 9,984 as of the 2010 census. The country is the United States, but its population is not provided in the context passages. Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.200 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.853 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.853 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.853 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.853 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": 0.6436477874005573,
+    "r2": 0.6036005025444311,
+    "hi_rate": [
+      0.5,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "The Vermont Catamounts men's soccer team currently competes in a conference that was formerly known as what from 1988 to 1996?",
+    "gold_answer": "the North Atlantic Conference",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "The Vermont Catamounts men's soccer team competes in the America East Conference. The America East Conference was formerly known as the North Atlantic Conference from 1988 to 1996. Therefore, the answer is the North Atlantic Conference.",
+      "The Vermont Catamounts men's soccer team competes in the America East Conference. The America East Conference was formerly known as the North Atlantic Conference from 1988 to 1996. Therefore, the answer is the North Atlantic Conference.",
+      "The Vermont Catamounts men's soccer team competes in the America East Conference. The America East Conference was formerly known as the North Atlantic Conference from 1988 to 1996. Therefore, the answer is the North Atlantic Conference.",
+      "The Vermont Catamounts men's soccer team competes in the America East Conference. The America East Conference was formerly known as the North Atlantic Conference from 1988 to 1996. Therefore, the answer is the North Atlantic Conference.",
+      "The Vermont Catamounts men's soccer team competes in the America East Conference. The America East Conference was formerly known as the North Atlantic Conference from 1988 to 1996. Therefore, the answer is the North Atlantic Conference.",
+      "The Vermont Catamounts men's soccer team competes in the America East Conference. The America East Conference was formerly known as the North Atlantic Conference from 1988 to 1996. Therefore, the answer is the North Atlantic Conference."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.136 \u2264 0.15 \u2192 stayed with BM25",
+      "Hop 3: drift=0.136 \u2264 0.15 \u2192 stayed with BM25",
+      "Hop 4: drift=0.136 \u2264 0.15 \u2192 stayed with BM25",
+      "Hop 5: drift=0.136 \u2264 0.15 \u2192 stayed with BM25",
+      "Hop 6: drift=0.136 \u2264 0.15 \u2192 stayed with BM25"
+    ],
+    "idi": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "Roger O. Egeberg was Assistant Secretary for Health and Scientific Affairs during the administration of a president that served during what years?",
+    "gold_answer": "1969 until 1974",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "Richard Nixon's administration was during the years 1969-1974. Therefore, Roger O. Egeberg was Assistant Secretary for Health and Scientific Affairs during the Nixon administration, which was from 1969 to 1974.",
+      "According to Passage 1 and Passage 3, Roger O. Egeberg was Assistant Secretary for Health and Scientific Affairs during Richard Nixon's administration, which was from 1969 to 1974. Therefore, the answer is 1969-1974.",
+      "According to Passage 1 and Passage 3, Roger O. Egeberg was Assistant Secretary for Health and Scientific Affairs during Richard Nixon's administration, which was from 1969 to 1974. Therefore, the answer is 1969-1974.",
+      "According to Passage 1 and Passage 3, Roger O. Egeberg was Assistant Secretary for Health and Scientific Affairs during Richard Nixon's administration, which was from 1969 to 1974. Therefore, the answer is 1969-1974.",
+      "According to Passage 1 and Passage 3, Roger O. Egeberg was Assistant Secretary for Health and Scientific Affairs during Richard Nixon's administration, which was from 1969 to 1974. Therefore, the answer is 1969-1974.",
+      "According to Passage 1 and Passage 3, Roger O. Egeberg was Assistant Secretary for Health and Scientific Affairs during Richard Nixon's administration, which was from 1969 to 1974. Therefore, the answer is 1969-1974."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.144 \u2264 0.15 \u2192 stayed with BM25",
+      "Hop 3: drift=0.149 \u2264 0.15 \u2192 stayed with BM25",
+      "Hop 4: drift=0.149 \u2264 0.15 \u2192 stayed with BM25",
+      "Hop 5: drift=0.149 \u2264 0.15 \u2192 stayed with BM25",
+      "Hop 6: drift=0.149 \u2264 0.15 \u2192 stayed with BM25"
+    ],
+    "idi": [
+      0.6666666666666667,
+      0.6666666666666667,
+      0.6666666666666667,
+      0.6666666666666667,
+      0.6666666666666667,
+      0.6666666666666667
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "Which writer was from England, Henry Roth or Robert Erskine Childers?",
+    "gold_answer": "Robert Erskine Childers DSC",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "Robert Erskine Childers was English-born. The passages describe Henry Roth as an American novelist and do not mention his birthplace as England. \n\nSo, Robert Erskine Childers was the English-born writer.",
+      "Robert Erskine Childers was the English-born writer. Passage 2 describes him as \"English-born\", while Passage 1 describes Henry Roth as an American novelist. There is no mention of Henry Roth being English-born.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.111 \u2264 0.15 \u2192 stayed with BM25",
+      "Hop 3: drift=0.172 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.989 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.989 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.989 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": 0.37255891855351214,
+    "r2": 0.5755266959013259,
+    "hi_rate": [
+      0.0,
+      0.3333333333333333,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "Which other Mexican Formula One race car driver has held the podium besides the Force India driver born in 1990?",
+    "gold_answer": "Pedro Rodr\u00edguez",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.911 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.911 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.911 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.911 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.911 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "This singer of A Rather Blustery Day also voiced what hedgehog?",
+    "gold_answer": "Sonic",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.973 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.973 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.973 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.973 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.973 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "Aside from the Apple Remote, what other device can control the program Apple Remote was originally designed to interact with?",
+    "gold_answer": "keyboard function keys",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "Not found in context. \n\nThe context passages do not mention any other device aside from the Apple Remote that can control the Front Row media program.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.468 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=1.005 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=1.005 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=1.005 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=1.005 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      0.5,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "Which performance act has a higher instrument to person ratio, Badly Drawn Boy or Wolf Alice?",
+    "gold_answer": "Badly Drawn Boy",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "Badly Drawn Boy is a solo artist and likely plays all the instruments by himself, which would be a 1:1 ratio if he does. Wolf Alice is a four-piece band, implying more people than instruments. Not found in context for exact instrument counts.",
+      "Not found in context. The passages do not provide information on the number of instruments played by Badly Drawn Boy or Wolf Alice.",
+      "Badly Drawn Boy, whose real name is Damon Gough, played several instruments on 18 tracks. Wolf Alice has 4 members playing a total of 5 instruments (vocals, 2 guitars, bass, and drums). The instrument to person ratio for Badly Drawn Boy seems higher. \n\nHowever, exact ratio calculation per person is not possible with provided information. But still we can see Badly Drawn Boy played several instruments on his own. Therefore, Badly Drawn Boy likely has a higher ratio.",
+      "Badly Drawn Boy played several instruments on 18 tracks. No information is provided about Wolf Alice. Therefore, we can't directly compare, but we know Badly Drawn Boy played multiple instruments.",
+      "Not found in context. The provided passages do not contain information about Wolf Alice or a direct comparison of instrument to person ratio between Badly Drawn Boy and Wolf Alice.",
+      "Not found in context. The provided passages do not contain information about the number of instruments used by Badly Drawn Boy or a direct comparison of instrument to person ratio between Badly Drawn Boy and Wolf Alice. However, we know Wolf Alice has 4 members and 4 instruments (at least), and no information about Badly Drawn Boy's configuration."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.278 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.355 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.318 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.255 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.299 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      0.8333333333333334,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "What was the father of Kasper Schmeichel voted to be by the IFFHS in 1992?",
+    "gold_answer": "World's Best Goalkeeper",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "Not found in context. \n\n(The passages mention Peter Schmeichel, not Kasper Schmeichel's father, being voted the IFFHS World's Best Goalkeeper in 1992.)",
+      "Peter Schmeichel, the father of Kasper Schmeichel, was voted the IFFHS World's Best Goalkeeper in 1992. He received the same award in 1993. This award is given annually by the International Federation of Football History & Statistics.",
+      "Peter Schmeichel, the father of Kasper Schmeichel, was voted the IFFHS World's Best Goalkeeper in 1992. He received the same award in 1993. \n\nAlternatively: \nPeter Schmeichel was voted the IFFHS World's Best Goalkeeper in 1992.",
+      "Peter Schmeichel, the father of Kasper Schmeichel, was voted the IFFHS World's Best Goalkeeper in 1992. He also received the same award in 1993.",
+      "Peter Schmeichel, the father of Kasper Schmeichel, was voted the IFFHS World's Best Goalkeeper in 1992.",
+      "The IFFHS World's Best Goalkeeper. Peter Schmeichel, the father of Kasper Schmeichel, was voted the IFFHS World's Best Goalkeeper in 1992."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.273 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.256 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.294 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.238 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.198 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      0.5,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.5,
+      0.0,
+      0.0
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "Who was the writer of These Boots Are Made for Walkin' and who died in 2007?",
+    "gold_answer": "Barton Lee Hazlewood",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "The writer of \"These Boots Are Made for Walkin'\" was Lee Hazlewood. However, there is no information about someone dying in 2007 in the provided passages. Not found in context.",
+      "The writer of \"These Boots Are Made for Walkin'\" was Lee Hazlewood. However, there is no information about someone dying in 2007 in the provided passages. Not found in context.",
+      "The writer of \"These Boots Are Made for Walkin'\" was Lee Hazlewood. However, there is no information about someone dying in 2007 in the provided passages. Not found in context.",
+      "The writer of \"These Boots Are Made for Walkin'\" was Lee Hazlewood. However, there is no information about someone dying in 2007 in the provided passages. Not found in context.",
+      "The writer of \"These Boots Are Made for Walkin'\" was Lee Hazlewood. However, there is no information about someone dying in 2007 in the provided passages. Not found in context.",
+      "The writer of \"These Boots Are Made for Walkin'\" was Lee Hazlewood. However, there is no information about someone dying in 2007 in the provided passages. Not found in context."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.195 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.195 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.195 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.195 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.195 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      0.6666666666666666,
+      0.6666666666666666,
+      0.6666666666666666,
+      0.6666666666666666,
+      0.6666666666666666,
+      0.6666666666666666
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "The 2011\u201312 VCU Rams men's basketball team, led by third year head coach Shaka Smart, represented Virginia Commonwealth University which was founded in what year?",
+    "gold_answer": "1838",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "Not found in context.",
+      "Virginia Commonwealth University was founded in 1838. The 2011\u201312 VCU Rams men's basketball team was led by head coach Shaka Smart. \n\nVCU was founded as the medical department of Hampden\u2013Sydney College.",
+      "The 2011\u201312 VCU Rams men's basketball team represented Virginia Commonwealth University, which was founded in 1838. VCU was founded as the medical department of Hampden\u2013Sydney College.",
+      "The 2011\u201312 VCU Rams men's basketball team represented Virginia Commonwealth University, which was founded in 1838. VCU was founded as the medical department of Hampden\u2013Sydney College. Therefore, Virginia Commonwealth University was founded in 1838.",
+      "The 2011\u201312 VCU Rams men's basketball team represented Virginia Commonwealth University, which was founded in 1838 as the medical department of Hampden\u2013Sydney College. Therefore, Virginia Commonwealth University was founded in 1838.",
+      "The 2011\u201312 VCU Rams men's basketball team represented Virginia Commonwealth University, which was founded in 1838. Therefore, Virginia Commonwealth University was founded in 1838."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.925 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.189 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.222 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.227 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.228 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "lambda": 0.01183055928065212,
+    "r2": -0.18621191791984604,
+    "hi_rate": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "Kaiser Ventures corporation was founded by an American industrialist who became known as the father of modern American shipbuilding?",
+    "gold_answer": "Henry J. Kaiser",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "The statement is partially incorrect. According to Passage 1, Henry J. Kaiser, known as the father of modern American shipbuilding, founded the Kaiser Shipbuilding Company (Passage 4), not Kaiser Ventures corporation. Kaiser Ventures is not mentioned in the provided context passages.",
+      "Not found in context. The passages indicate that Henry J. Kaiser, known as the father of modern American shipbuilding, founded the Kaiser Shipbuilding Company, not Kaiser Ventures corporation.",
+      "Not found in context. The passages indicate that Henry J. Kaiser, known as the father of modern American shipbuilding, founded the Kaiser Shipyards and Kaiser Ventures to provide steel plate, but do not state that Kaiser Ventures is a corporation.",
+      "Not found in context. However, it is stated that Henry J. Kaiser, known as the father of modern American shipbuilding, founded Kaiser Ventures to provide steel plate.",
+      "Yes, Kaiser Ventures was founded by Henry J. Kaiser, who is known as the father of modern American shipbuilding. He founded Kaiser Ventures to provide steel plate for the Pacific Coast shipbuilding industry. Kaiser was an American industrialist.",
+      "Yes, that is correct. Henry J. Kaiser, known as the father of modern American shipbuilding, founded Kaiser Ventures to provide steel plate for the Pacific Coast shipbuilding industry. He was an American industrialist."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.181 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.205 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.192 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.237 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.124 \u2264 0.15 \u2192 stayed with BM25"
+    ],
+    "idi": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      0.6666666666666666,
+      0.5,
+      0.5,
+      0.5,
+      0.3333333333333333,
+      0.6666666666666666
+    ],
+    "n_switches": 2
+  },
+  {
+    "question": "What is the name for the adventure in \"Tunnels and Trolls\", a game designed by Ken St. Andre?",
+    "gold_answer": "Arena of Khazan",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "Arena of Khazan. It is a 1979 role-playing game adventure for \"Tunnels & Trolls\" published by Flying Buffalo.",
+      "Arena of Khazan. It is a 1979 role-playing game adventure for \"Tunnels & Trolls\" published by Flying Buffalo.",
+      "The adventure is called \"Arena of Khazan\". It is a 1979 role-playing game adventure for \"Tunnels & Trolls\" published by Flying Buffalo.",
+      "The adventure is called \"Arena of Khazan\" and also \"Crusaders of Khazan\". \"Arena of Khazan\" is a 1979 role-playing game adventure, while \"Crusaders of Khazan\" is a computer adaptation. Both are for \"Tunnels & Trolls\".",
+      "The adventures are called \"Arena of Khazan\" and \"Crusaders of Khazan\". \"Arena of Khazan\" is a 1979 role-playing game adventure, while \"Crusaders of Khazan\" is a computer adaptation. Both are related to \"Tunnels & Trolls\".",
+      "The adventures are called \"Arena of Khazan\" and \"Crusaders of Khazan\". \"Arena of Khazan\" is a 1979 role-playing game adventure, while \"Crusaders of Khazan\" is a computer adaptation. Both are related to \"Tunnels & Trolls\"."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.302 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.302 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.245 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.369 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.388 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      0.5,
+      0.5,
+      0.5,
+      0.6666666666666666,
+      0.6666666666666666,
+      0.6666666666666666
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "When was Poison's album \"Shut Up, Make Love\" released?",
+    "gold_answer": "2000",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "Not found in context. \n\nThe passages mention the album \"Crack a Smile...and More!\" and \"Crack a Smile\" but not \"Shut Up, Make Love\" as an album. \"Shut Up, Make Love\" is mentioned as a song and single from the album \"Crack a Smile\", which was released on March 14, 2000.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.470 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.808 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.808 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.808 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.808 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": 0.6436477874005573,
+    "r2": 0.6036005025444311,
+    "hi_rate": [
+      0.5,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "Hayden is a singer-songwriter from Canada, but where does Buck-Tick hail from?",
+    "gold_answer": "Fujioka, Gunma",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.869 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.869 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.869 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.869 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.869 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "Which  French ace pilot and adventurer fly L'Oiseau Blanc",
+    "gold_answer": "Charles Eug\u00e8ne",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "Not found in context. \n\nHowever, Passage 3 mentions Fran\u00e7ois Coli, a French pilot, as the one-eyed flying partner of Charles Nungesser in their attempt to fly the Atlantic Ocean on \"L'Oiseau Blanc\". \n Passage 5 and Passage 1 mention  Gervais Raoul Lufbery and  W. E. Johns respectively as aces but no mention of them  flying L'Oiseau Blanc.",
+      "Charles Nungesser, a French World War I aviation hero, flew \"L'Oiseau Blanc\" with his navigator Fran\u00e7ois Coli. Nungesser was a French ace. \n\nNotably, Fran\u00e7ois Coli was the navigator, not the ace pilot flying solo;  Nungesser piloted.",
+      "Charles Nungesser, a French ace pilot and adventurer, flew \"L'Oiseau Blanc\". He was a renowned ace in France with 43 air combat victories during World War I.",
+      "Charles Nungesser, along with Fran\u00e7ois Coli, flew \"L'Oiseau Blanc\". Nungesser was a renowned French ace pilot and adventurer with 43 air combat victories during World War I.",
+      "Charles Nungesser, along with Fran\u00e7ois Coli, flew \"L'Oiseau Blanc\". Nungesser was a renowned French ace pilot and adventurer with 43 air combat victories during World War I.",
+      "Charles Nungesser, along with Fran\u00e7ois Coli, flew \"L'Oiseau Blanc\". Nungesser was a renowned French ace pilot and adventurer with 43 air combat victories during World War I."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.336 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.318 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.242 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.329 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.329 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      0.3333333333333333,
+      0.6666666666666666,
+      0.0,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "Which band, Letters to Cleo or Screaming Trees, had more members?",
+    "gold_answer": "Letters to Cleo",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "Letters to Cleo had 6 members listed: Kay Hanley, Greg McKenna, Michael Eisenstein, Stacy Jones, Scott Riebling, and Tom Polce. The number of members of Screaming Trees is not listed. Therefore, based on the provided information, Letters to Cleo had more members listed.",
+      "Letters to Cleo had 6 members listed: Kay Hanley, Greg McKenna, Michael Eisenstein, Stacy Jones, Scott Riebling, and Tom Polce. Screaming Trees had 4 members listed: Mark Lanegan, Gary Lee Conner, Van Conner, and Mark Pickerel. Therefore, Letters to Cleo had more members listed.",
+      "Letters to Cleo had 6 members listed: Kay Hanley, Greg McKenna, Michael Eisenstein, Stacy Jones, Scott Riebling, and Tom Polce. Screaming Trees had 4 members listed: Mark Lanegan, Gary Lee Conner, Van Conner, and Mark Pickerel. Therefore, Letters to Cleo had more members listed.",
+      "Letters to Cleo had 6 members listed: Kay Hanley, Greg McKenna, Michael Eisenstein, Stacy Jones, Scott Riebling, and Tom Polce. Screaming Trees had 4 members listed: Mark Lanegan, Gary Lee Conner, Van Conner, and Mark Pickerel. Therefore, Letters to Cleo had more members listed.",
+      "Letters to Cleo had 6 members listed: Kay Hanley, Greg McKenna, Michael Eisenstein, Stacy Jones, Scott Riebling, and Tom Polce. Screaming Trees had 4 members listed: Mark Lanegan, Gary Lee Conner, Van Conner, and Mark Pickerel. Therefore, Letters to Cleo had more members listed.",
+      "Letters to Cleo had 6 members listed: Kay Hanley, Greg McKenna, Michael Eisenstein, Stacy Jones, Scott Riebling, and Tom Polce. Screaming Trees had 4 members listed: Mark Lanegan, Gary Lee Conner, Van Conner, and Mark Pickerel. Therefore, Letters to Cleo had more members listed."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.190 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.185 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.185 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.185 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.185 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "Alexander Kerensky was defeated and destroyed by the Bolsheviks in the course of a civil war that ended when ?",
+    "gold_answer": "October 1922",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "The civil war that led to Alexander Kerensky's defeat ended in 1923, when Red control of the newly formed Soviet Union was assured. However, armed resistance continued until 1934. Kerensky himself was specifically defeated by the Bolsheviks through the destruction of his party, the Right SRs.",
+      "The civil war that led to Alexander Kerensky's defeat ended in 1923, when Red control of the newly formed Soviet Union was assured. Kerensky's party, the Right SRs, was defeated and destroyed by the Bolsheviks during this war. \n\nAlternatively: 1923.",
+      "The civil war that led to Alexander Kerensky's defeat ended in 1923, when Red control of the newly formed Soviet Union was assured. Alternatively: 1923.",
+      "The civil war that led to Alexander Kerensky's defeat ended in 1923, when Red control of the newly formed Soviet Union was assured. Alternatively: 1923.",
+      "The civil war that led to Alexander Kerensky's defeat ended in 1923, when Red control of the newly formed Soviet Union was assured. Alternatively: 1923.",
+      "1923, when Red control of the newly formed Soviet Union was assured."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.199 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.222 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.293 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.293 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.293 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      0.6666666666666666,
+      0.3333333333333333,
+      0.5,
+      0.5,
+      0.5,
+      1.0
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "Seven Brief Lessons on Physics was written by an Italian physicist that has worked in France since what year?",
+    "gold_answer": "2000",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "The Italian physicist who wrote \"Seven Brief Lessons on Physics\" is Carlo Rovelli. According to the passages, Rovelli has worked in France since 2000. Therefore, the answer is 2000.",
+      "The Italian physicist who wrote \"Seven Brief Lessons on Physics\" is Carlo Rovelli. According to the passages, Rovelli has worked in France since 2000. Therefore, the answer is 2000.",
+      "The Italian physicist who wrote \"Seven Brief Lessons on Physics\" is Carlo Rovelli. According to the passages, Rovelli has worked in France since 2000. Therefore, the answer is 2000.",
+      "The Italian physicist who wrote \"Seven Brief Lessons on Physics\" is Carlo Rovelli. According to the passages, Rovelli has worked in France since 2000. Therefore, the answer is 2000.",
+      "According to the passages, Carlo Rovelli, the Italian physicist who wrote \"Seven Brief Lessons on Physics\", has worked in France since 2000. Therefore, the answer is 2000.",
+      "The Italian physicist who wrote \"Seven Brief Lessons on Physics\" is Carlo Rovelli. According to the passages, Carlo Rovelli has worked in France since 2000. Therefore, the answer is 2000."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.162 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.162 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.162 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.162 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.222 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      0.6666666666666666,
+      0.6666666666666666,
+      0.6666666666666666,
+      0.6666666666666666,
+      0.5,
+      0.3333333333333333
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "The Livesey Hal War Memorial commemorates the fallen of which war, that had over 60 million casualties?",
+    "gold_answer": "World War II",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "The Livesey Hall War Memorial commemorates the fallen of World War I and World War II. World War II had over 60 million casualties. Therefore, the answer is World War II.",
+      "The Livesey Hall War Memorial commemorates the fallen of World War I and World War II. However, the passages do not provide a casualty count for these wars specifically for the Livesey Hall War Memorial. Not found in context.",
+      "The Livesey Hall War Memorial commemorates the fallen of World War I and World War II. World War II is the war with over 60 million casualties, although the exact number is not mentioned in the passages. The memorial specifically relates to employees of the South Suburban Gas Company of London.",
+      "World War II. The Livesey Hall War Memorial commemorates the fallen of World War I and World War II who had been employed by the South Suburban Gas Company of London.",
+      "World War II had over 60 million casualties. The Livesey Hall War Memorial commemorates the fallen of World War I and World War II. \n\nNot directly stated but World War II can be inferred.",
+      "The Livesey Hall War Memorial commemorates the fallen of World War I and World War II. World War II had estimates of total deaths ranging from 50 million to more than 80 million, which includes over 60 million casualties. Therefore, it can be inferred that the war with over 60 million casualties is World War II."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.283 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.254 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.237 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.329 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.252 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.0,
+      0.5,
+      0.3333333333333333,
+      0.0
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "Ralph Hefferline was a psychology professor at a university that is located in what city?",
+    "gold_answer": "New York City",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "Ralph Hefferline was a psychology professor at Columbia University. Columbia University is located in New York City. \n\nAlternatively: \nRalph Hefferline was a psychology professor at Columbia University, which is in New York City.",
+      "Ralph Hefferline was a psychology professor at Columbia University, which is located in New York City.",
+      "Ralph Hefferline was a psychology professor at Columbia University, which is located in New York City. \nColumbia University is in Upper Manhattan, New York City. \nTherefore, the city is New York City.",
+      "New York City. Columbia University, where Ralph Hefferline was a psychology professor, is located in Upper Manhattan, New York City.",
+      "New York City. Columbia University, where Ralph Hefferline was a psychology professor, is located in Upper Manhattan, New York City. \n\n(Alternatively, a 2-sentence answer: \nRalph Hefferline was a psychology professor at Columbia University. Columbia University is located in Upper Manhattan, New York City.)",
+      "Ralph Hefferline was a psychology professor at Columbia University. Columbia University is located in Upper Manhattan, New York City."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.105 \u2264 0.15 \u2192 stayed with BM25",
+      "Hop 3: drift=0.079 \u2264 0.15 \u2192 stayed with BM25",
+      "Hop 4: drift=0.147 \u2264 0.15 \u2192 stayed with BM25",
+      "Hop 5: drift=0.171 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.189 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      0.3333333333333333,
+      0.0,
+      0.6666666666666666,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "Which dog's ancestors include Gordon and Irish Setters: the Manchester Terrier or the Scotch Collie?",
+    "gold_answer": "Scotch Collie",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "The Scotch Collie's ancestors include the Gordon and Irish Setters. Passage 1 states: \"Scotch Collie: Other ancestors include the Gordon and Irish Setters.\" There is no mention of these ancestors for the Manchester Terrier. \n\nAnswer: Scotch Collie.",
+      "The Scotch Collie's ancestors include the Gordon and Irish Setters. \nPassage 1 directly states this. \nThe Manchester Terrier is not mentioned.",
+      "The Scotch Collie's ancestors include the Gordon and Irish Setters. Passage 1 directly states this, while the Manchester Terrier is not mentioned as having these ancestors. The Scotch Collie is the correct answer.",
+      "The Scotch Collie's ancestors include the Gordon and Irish Setters. Passage 1 directly states this. The Manchester Terrier's ancestors are not mentioned as including Gordon and Irish Setters.",
+      "The Scotch Collie's ancestors include the Gordon and Irish Setters. Passage 1 directly states this. The Manchester Terrier is not mentioned.",
+      "The Scotch Collie's ancestors include the Gordon and Irish Setters. Passage 1 directly states this. The Manchester Terrier is not mentioned as having these ancestors."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25",
+      "bm25"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.089 \u2264 0.15 \u2192 stayed with BM25",
+      "Hop 3: drift=0.051 \u2264 0.15 \u2192 stayed with BM25",
+      "Hop 4: drift=0.070 \u2264 0.15 \u2192 stayed with BM25",
+      "Hop 5: drift=0.067 \u2264 0.15 \u2192 stayed with BM25",
+      "Hop 6: drift=0.051 \u2264 0.15 \u2192 stayed with BM25"
+    ],
+    "idi": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      0.25,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "n_switches": 0
+  },
+  {
+    "question": "Where is the company that Sachin Warrier worked for as a software engineer headquartered?",
+    "gold_answer": "Mumbai",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "Tata Consultancy Services, where Sachin Warrier worked as a software engineer, has its headquarters in Mumbai, India; however, the passage does not mention the headquarters location. Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.274 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.736 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.736 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.736 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.736 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": 0.6436477874005573,
+    "r2": 0.6036005025444311,
+    "hi_rate": [
+      0.5,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "A Japanese manga series based on a 16 year old high school student Ichitaka Seto, is written and illustrated by someone born in what year?",
+    "gold_answer": "1962",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "Not found in context. The passage mentions that the manga series \"I's\" features Ichitaka Seto, but it does not provide information about the birth year of the writer and illustrator.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.274 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.951 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.951 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.951 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.951 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "The battle in which Giuseppe Arimondi lost his life secured what for Ethiopia?",
+    "gold_answer": "sovereignty",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "The battle in which Giuseppe Arimondi lost his life was the Battle of Adwa. This battle secured Ethiopian sovereignty. It was a decisive defeat for Italy.",
+      "The battle in which Giuseppe Arimondi lost his life, the Battle of Adwa, secured Ethiopian sovereignty. It was a decisive defeat for Italy. \nEthiopian sovereignty was secured.",
+      "Ethiopian sovereignty was secured. The Battle of Adwa was a decisive defeat for Italy and secured Ethiopian sovereignty. Giuseppe Arimondi lost his life in this battle.",
+      "Ethiopian sovereignty was secured. The Battle of Adwa was a decisive defeat for Italy and secured Ethiopian sovereignty.",
+      "Ethiopian sovereignty was secured. The Battle of Adwa was a decisive defeat for Italy and secured Ethiopian sovereignty. Giuseppe Arimondi was the Italian general who led the Italian forces at the Battle of Adwa.",
+      "Ethiopian sovereignty was secured. The Battle of Adwa was a decisive defeat for Italy and secured Ethiopian sovereignty."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.155 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.149 \u2264 0.15 \u2192 stayed with BM25",
+      "Hop 4: drift=0.204 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.359 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.293 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      0.6666666666666666,
+      0.6666666666666666,
+      0.6666666666666666,
+      0.5,
+      0.6666666666666666,
+      0.5
+    ],
+    "n_switches": 3
+  },
+  {
+    "question": "Alfred Balk served as the secretary of the Committee on the Employment of Minority Groups in the News Media under which United States Vice President?",
+    "gold_answer": "Nelson Rockefeller",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "Not found in context. \n\nHowever, according to Passage 1, Alfred Balk served as secretary of New York Governor Nelson Rockefeller's Committee on the Employment of Minority Groups in the News Media, not under a United States Vice President.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context. \n\nHowever, according to Passage 4, Alfred Balk served as secretary of New York Governor Nelson Rockefeller's Committee on the Employment of Minority Groups in the News Media. Nelson Rockefeller was the 41st Vice President of the United States.",
+      "Nelson Rockefeller, who was the 41st Vice President of the United States, was the governor under whom Alfred Balk served as secretary of the Committee on the Employment of Minority Groups in the News Media. Therefore, Alfred Balk served under Vice President Nelson Rockefeller.",
+      "Not found in context. \n\nHowever, based on Passage 1 and Passage 5, we can infer that Alfred Balk served as secretary of New York Governor Nelson Rockefeller's Committee on the Employment of Minority Groups in the News Media. At that time, Nelson Rockefeller was not a Vice President but a Governor. \n\nPassage 1 states that Nelson Rockefeller served as the 41st Vice President of the United States from 1974 to 1977, and previously as the 49th Governor of New York (1959\u20131973). Therefore, Alfred Balk served under Governor Nelson Rockefeller, not as a Vice President."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.190 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.933 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.933 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.250 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.326 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "lambda": 0.07774357848177159,
+    "r2": -0.2597567409557402,
+    "hi_rate": [
+      0.5,
+      1.0,
+      1.0,
+      0.3333333333333333,
+      0.0,
+      0.4
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "A medieval fortress in Dirleton, East Lothian, Scotland borders on the south side of what coastal area?",
+    "gold_answer": "Yellowcraig",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "Dirleton village lies on the south shore of the Firth of Forth. Therefore, a medieval fortress in Dirleton, East Lothian, Scotland borders on the south side of the Firth of Forth.",
+      "Dirleton village lies on the south shore of the Firth of Forth. A medieval fortress in Dirleton, East Lothian, Scotland is Dirleton Castle. Therefore, Dirleton Castle borders on the south side of the Firth of Forth.",
+      "Dirleton Castle is a medieval fortress in Dirleton, East Lothian, Scotland. Dirleton village lies on the south shore of the Firth of Forth. Therefore, Dirleton Castle borders on the south side of the Firth of Forth.",
+      "Dirleton Castle is a medieval fortress in Dirleton, East Lothian, Scotland. Dirleton village lies on the south shore of the Firth of Forth. Therefore, Dirleton Castle borders on the south side of the Firth of Forth.",
+      "Dirleton Castle is a medieval fortress in Dirleton, East Lothian, Scotland. Dirleton village lies on the south shore of the Firth of Forth. Therefore, Dirleton Castle borders on the south side of the Firth of Forth.",
+      "Dirleton Castle is a medieval fortress in Dirleton, East Lothian, Scotland. Dirleton village lies on the south shore of the Firth of Forth. Therefore, Dirleton Castle borders on the south side of the Firth of Forth."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.171 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.197 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.208 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.208 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.208 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      0.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "Who is the writer of this song that was inspired by words on a tombstone and was the first track on the box set Back to Mono?",
+    "gold_answer": "Phil Spector",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "The writer of the song \"To Know Him Is to Love Him\" is Phil Spector. It was inspired by words on his father's tombstone. However, the first track on the box set \"Back to Mono\" is not specified in the provided passages. \n\nBut, it can be deduced that \"To Know Him Is to Love Him\" was recorded by the Teddy Bears and was likely included in \"Back to Mono\" box set.",
+      "The writer of the song \"To Know Him Is to Love Him\" is Phil Spector, inspired by words on his father's tombstone. The song was the first track on the box set \"Back to Mono\" and was recorded by the Teddy Bears.",
+      "The writer of the song \"To Know Him Is to Love Him\" is Phil Spector, inspired by words on his father's tombstone. The song was the first track on the box set \"Back to Mono\". \n\nAlternatively: \nPhil Spector is the writer of \"To Know Him Is to Love Him\", inspired by his father's tombstone, and it was the first track on \"Back to Mono\".",
+      "Phil Spector is the writer of \"To Know Him Is to Love Him\", inspired by words on his father's tombstone, and it was the first track on \"Back to Mono\".",
+      "Phil Spector is the writer of \"To Know Him Is to Love Him\", inspired by words on his father's tombstone. It was the first track, released in 1958, on the box set \"Back to Mono\". Spector performed as part of the group the Teddy Bears on this track.",
+      "Phil Spector is the writer of \"To Know Him Is to Love Him\", inspired by words on his father's tombstone. It was the first track, released in 1958, on the box set \"Back to Mono\". Spector performed as part of the group the Teddy Bears on this track."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.436 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.407 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.400 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.419 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.460 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      0.5,
+      0.0,
+      0.3333333333333333,
+      0.0,
+      0.6666666666666666,
+      0.6666666666666666
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "What type of forum did a former Soviet statesman initiate?",
+    "gold_answer": "Organizations could come together to address global issues",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.922 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.922 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.922 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.922 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.922 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "Which British first-generation jet-powered medium bomber was used in the South West Pacific theatre of World War II?",
+    "gold_answer": "English Electric Canberra",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.982 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.982 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.982 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.982 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.982 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "Which year and which conference was the 14th season for this conference as part of the NCAA Division that the Colorado Buffaloes played in with a record of 2-6 in conference play?",
+    "gold_answer": "2009 Big 12 Conference",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "The 14th season for the Big 12 Conference was in 2009, as part of the NCAA Division I FBS football season. In that year, the Colorado Buffaloes played in the Big 12 Conference and had a record of 2\u20136 in conference play. Therefore, the answer is 2009 and Big 12 Conference.",
+      "The year and conference are 2009 and Big 12 Conference. This is confirmed by Passage 1, which states the 2009 Colorado Buffaloes football team had a record of 2\u20136 in Big 12 play. The previous answer also verified this. \nNot additional information required.",
+      "The 2009 Colorado Buffaloes football team had a record of 2\u20136 in Big 12 play. The Big 12 Conference was formed in 1996, making 2009 its 14th season. Therefore, the year and conference are 2009 and Big 12 Conference.",
+      "The year is 2009 and the conference is Big 12. This is inferred from Passage 1 which states the 2009 Colorado Buffaloes football team had a record of 2\u20136 in Big 12 play.",
+      "The conference with a 2-6 record mentioned is Big 12. Passage 1 mentions the 2009 season with a 2-6 record in Big 12 play. Assuming the first year is 2009, the 14th season would be 2022. However, no information about 2022 is available. \nNot found in context.",
+      "The 14th season for the Big 12 Conference was in 2009, as part of the NCAA Division I FBS football season. The Colorado Buffaloes had a record of 2\u20136 in Big 12 play in 2009. Therefore, the year and conference are 2009 and Big 12, respectively."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.159 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.209 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.248 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.210 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.485 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.0
+    ],
+    "lambda": 0.03663127303617077,
+    "r2": -0.19790771087081827,
+    "hi_rate": [
+      0.3333333333333333,
+      0.75,
+      0.3333333333333333,
+      0.5,
+      0.8,
+      0.3333333333333333
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "In 1991 Euromarch\u00e9 was bought by a chain that operated how any hypermarkets at the end of 2016?",
+    "gold_answer": "1,462",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.891 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.891 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.891 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.891 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.891 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "What race track in the midwest hosts a 500 mile race eavery May?",
+    "gold_answer": "Indianapolis Motor Speedway",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "Not found in context. The passages mention several tracks and races, but none specifically mention a 500-mile race in the Midwest every May.",
+      "Not found in context.",
+      "Indianapolis Motor Speedway is the home of the Indianapolis 500. It hosts the 500 mile race every May. \n\nIt is located in the midwest.",
+      "The Indianapolis Motor Speedway, located in the midwest, is the home of the Indianapolis 500. It hosts the 500 mile race every May. \nNot directly stated but supported: It is in Speedway, Indiana, an enclave suburb of Indianapolis.",
+      "The Indianapolis Motor Speedway, located in Speedway, Indiana, hosts the Indianapolis 500. It is the home of the Indianapolis 500. The 500 mile race was held there on May 30, 1957.",
+      "The Indianapolis Motor Speedway, located in Speedway, Indiana, hosts the Indianapolis 500. It is the home of the Indianapolis 500, which was held on May 30, 1957. The speedway is located approximately 6 mi west of Downtown Indianapolis."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.253 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.920 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.366 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.360 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.441 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "lambda": 0.04138170835476712,
+    "r2": -0.41614529766983166,
+    "hi_rate": [
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.0
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "In what city did the \"Prince of tenors\" star in a film based on an opera by Giacomo Puccini?",
+    "gold_answer": "Rome",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "Not found in context.",
+      "The film, Tosca, was made at Cinecitt\u00e0 in Rome. The \"Prince of tenors\", Franco Corelli, starred in this film which is based on the opera by Giacomo Puccini. Therefore, he starred in the film in Rome.",
+      "Rome. The film, Tosca, was made at Cinecitt\u00e0 in Rome and starred Franco Corelli, the \"Prince of tenors\", in a film based on the opera by Giacomo Puccini.",
+      "Rome. The film, Tosca, was made at Cinecitt\u00e0 in Rome and starred Franco Corelli. It is based on the opera by Giacomo Puccini.",
+      "Rome. The film, Tosca, was made at Cinecitt\u00e0 in Rome and starred Franco Corelli. It is based on the opera by Giacomo Puccini.",
+      "Rome. The film, Tosca, was made at Cinecitt\u00e0 in Rome and starred Franco Corelli. It is based on the opera by Giacomo Puccini."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.950 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.225 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.313 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.478 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.478 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "lambda": 0.01183055928065212,
+    "r2": -0.18621191791984604,
+    "hi_rate": [
+      1.0,
+      0.3333333333333333,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "Ellie Goulding worked with what other writers on her third studio album, Delirium?",
+    "gold_answer": "Max Martin, Savan Kotecha and Ilya Salmanzadeh",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "On her song \"On My Mind\", Ellie Goulding worked with writers Max Martin, Savan Kotecha, and Ilya Salmanzadeh. Other writers on her album are not specified. The album \"Delirium\" also included the song \"Love Me like You Do\".",
+      "The writers on Ellie Goulding's song \"On My Mind\" were Max Martin, Savan Kotecha, and Ilya Salmanzadeh, in addition to Goulding. No other writers on her third studio album \"Delirium\" are specified in the passages. \"Love Me like You Do\" was also on the album, but writers are not listed."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.919 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.919 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.919 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.919 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.213 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.4,
+      0.4
+    ],
+    "lambda": 4.999917926536616,
+    "r2": -0.5000946029745259,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "Which Australian city founded in 1838 contains a boarding school opened by a Prime Minister of Australia and named after a school in London of the same name.",
+    "gold_answer": "Marion, South Australia",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "Adelaide contains a boarding school, Westminster School, which was opened by Prime Minister Robert Menzies in 1961 and is named after Westminster School in London. Adelaide was founded in 1836 is not mentioned but among provided information only this match. \n\n Not the founding date match but;  Not other city mentioned.",
+      "Not found in context. \n\n(Rationale: The passages do not mention the founding date of the Australian city. They only provide information about Westminster School in Adelaide, which was opened by Prime Minister Robert Menzies in 1961 and is named after Westminster School in London.)",
+      "The city is not explicitly mentioned, but the school, Westminster School, Adelaide, is located at Marion, South Australia. Marion was founded as a rural village in 1838. The school was opened by Prime Minister Robert Menzies in 1961 and is named after Westminster School in London.",
+      "The city is not explicitly mentioned, but Marion, South Australia, was founded as a rural village in 1838 and contains Westminster School, Adelaide, which was opened by Prime Minister Robert Menzies in 1961 and is named after Westminster School in London. Marion is a suburb around 10 km south-west of the CBD.",
+      "Marion, South Australia, founded in 1838, contains Westminster School, Adelaide, a boarding school opened by Prime Minister Robert Menzies in 1961, which is named after Westminster School in London. Marion is around 10 km south-west of the Adelaide CBD. \n\nNote that the city itself isn't explicitly mentioned as being founded in 1838; it was founded as a rural village.",
+      "Marion, South Australia, founded as a rural village in 1838, contains Westminster School, Adelaide, a boarding school opened by Prime Minister Robert Menzies in 1961, which is named after Westminster School in London."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.207 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.284 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.356 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.415 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.315 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "lambda": 0.04138170835476712,
+    "r2": -0.41614529766983166,
+    "hi_rate": [
+      0.6666666666666666,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0,
+      0.3333333333333333,
+      0.0
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "D1NZ is a series based on what oversteering technique?",
+    "gold_answer": "Drifting",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=1.007 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=1.007 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=1.007 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=1.007 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=1.007 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "who is younger Keith Bostic or Jerry Glanville ?",
+    "gold_answer": "Keith Bostic",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "Keith Bostic was born on January 17, 1961, and Jerry Glanville was born on October 14, 1941. Therefore, Keith Bostic is younger.",
+      "Keith Bostic is younger. He was born on January 17, 1961, and Jerry Glanville was born on October 14, 1941. Therefore, Keith Bostic is approximately 20 years younger.",
+      "Keith Bostic is younger. He was born on January 17, 1961, and Jerry Glanville was born on October 14, 1941. Therefore, Keith Bostic is approximately 20 years younger.",
+      "Keith Bostic is younger. He was born on January 17, 1961, and Jerry Glanville was born on October 14, 1941. Therefore, Keith Bostic is approximately 20 years younger.",
+      "Keith Bostic is younger. He was born on January 17, 1961, and Jerry Glanville was born on October 14, 1941. Therefore, Keith Bostic is approximately 20 years younger.",
+      "Keith Bostic is younger. He was born on January 17, 1961, and Jerry Glanville was born on October 14, 1941. Therefore, Keith Bostic is approximately 20 years younger."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.165 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.176 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.176 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.176 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.176 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      0.5,
+      0.6666666666666666,
+      0.6666666666666666,
+      0.6666666666666666,
+      0.6666666666666666,
+      0.6666666666666666
+    ],
+    "n_switches": 1
+  },
+  {
+    "question": "According to the 2001 census, what was the population of the city in which Kirton End is located?",
+    "gold_answer": "35,124",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "pipeline_type": "adaptive",
+    "outputs": [
+      "Not found in context. \n\nThe passages provide information about Kirton End, but do not specify the population of the city in which it is located, according to the 2001 census. Kirton End is mentioned as a hamlet in the civil parish of Kirton in Boston district of Lincolnshire, England, but the population of the city is not provided.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context.",
+      "Not found in context."
+    ],
+    "retrievers_used": [
+      "bm25",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss",
+      "faiss"
+    ],
+    "switch_log": [
+      "Hop 1: adaptive start",
+      "Hop 2: drift=0.210 > 0.15 \u2192 switched to FAISS",
+      "Hop 3: drift=0.923 > 0.15 \u2192 switched to FAISS",
+      "Hop 4: drift=0.923 > 0.15 \u2192 switched to FAISS",
+      "Hop 5: drift=0.923 > 0.15 \u2192 switched to FAISS",
+      "Hop 6: drift=0.923 > 0.15 \u2192 switched to FAISS"
+    ],
+    "idi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lambda": null,
+    "r2": null,
+    "hi_rate": [
+      0.3333333333333333,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "n_switches": 1
+  }
+]
