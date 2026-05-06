@@ -1,0 +1,17 @@
+
+Model                  Metric                    Fixed    Adapt  Reduction                 95% CI    n
+----------------------------------------------------------------------------------------------------
+LLaMA-4-Scout-17B      IDI@h6                    1.000    0.491      50.9%       (+37.2%, +64.0%)   50
+LLaMA-4-Scout-17B      Hallucination (mean)      0.997    0.637      36.1%       (+27.7%, +44.3%)   50
+
+Qwen3-32B              IDI@h6                    1.000    0.523      47.7%       (+34.0%, +61.3%)   50
+Qwen3-32B              Hallucination (mean)      0.991    0.601      39.3%       (+29.2%, +49.8%)   50
+
+GPT-OSS-120B           IDI@h6                    0.960    0.843      12.2%        (+4.6%, +21.0%)   50
+GPT-OSS-120B           Hallucination (mean)      0.997    0.867      13.0%        (+5.3%, +22.1%)   50
+
+Notes:
+- 'Reduction' is % decrease from fixed to adaptive (positive = adaptive better)
+- 95% CI from 10,000 paired bootstrap resamples
+- IDI@h6 = information decay at final (6th) hop, lower is better
+- Hallucination = mean hi_rate across all 6 hops, lower is better
