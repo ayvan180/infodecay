@@ -8,11 +8,11 @@ Instructor: Dr. Amitava Das
 
 ## What this is
 
-Iterative RAG pipelines chain retrieval and generation across multiple hops — each hop uses the previous LLM answer as the next search query. Every generation step can silently drop or distort facts, and errors compound across hops. No existing metric measures this at the hop level.
+Iterative RAG pipelines chain retrieval and generation across multiple hops — each hop uses the previous LLM answer as the next search query. Every generation step can silently drop or distort facts, and errors compound across hops. To our knowledge, no existing metric measures this at the hop level.
 
 We propose two contributions:
 
-1. **IDI (Information Decay Index)** — the first per-hop factual fidelity metric for iterative RAG, modelled as IDI(k) ≈ 1 − e^(−λk), where λ is a single diagnostic scalar encoding the pipeline's decay rate.
+1. **IDI (Information Decay Index)** — a novel per-hop factual fidelity metric for iterative RAG, modelled as IDI(k) ≈ 1 − e^(−λk), where λ is a single diagnostic scalar encoding the pipeline's decay rate.
 
 2. **IDI-driven adaptive retriever switching** — switches between BM25 (keyword search) and FAISS (semantic search) mid-pipeline based on measured query semantic drift, reducing information decay at depth.
 
@@ -51,6 +51,9 @@ python experiments/run_all.py
 
 # 4. Generate all 5 figures
 python analysis/plot_results.py
+
+# 5. Compute bootstrap confidence intervals on the headline metrics
+python bootstrap_ci.py
 ```
 
 Results save to `results/` after every question — crash safe, resumes automatically if interrupted.
@@ -88,6 +91,7 @@ infodecay/
 ├── results/              # Experiment JSON output files — one per model/pipeline condition
 ├── figures/              # PDF and PNG graphs for paper and poster
 ├── app.py                # Streamlit interactive demo
+├── bootstrap_ci.py       # Paired bootstrap CIs on IDI and hallucination reductions
 └── download_data.py      # Downloads HotpotQA distractor dev set from HuggingFace
 ```
 
@@ -121,7 +125,7 @@ else:
     use BM25   # keyword retrieval sufficient when query is close to original
 ```
 
-The drift threshold θ = 0.15 was set heuristically. A learned threshold is a direction for future work.
+The drift threshold θ = 0.15 was selected by grid search over {0.10, 0.15, 0.20} on a held-out subset. A learned, per-question threshold is a direction for future work.
 
 ---
 
@@ -142,12 +146,39 @@ The drift threshold θ = 0.15 was set heuristically. A learned threshold is a di
 
 ---
 
-## Key Findings
+## Results
 
-- IDI grows monotonically on hard multi-hop questions — factual loss is systematic, not random
-- Adaptive switching produces non-monotonic IDI (negative R²), confirming it actively interrupts decay
-- Hallucination rate rises sharply after hop 3 — retrieval noise gives way to LLM confabulation
-- Model capacity and retrieval strategy both modulate decay behaviour across hops
+We evaluate IDI@h6 (information decay at the final hop) and mean hallucination rate across all 6 hops, comparing fixed BM25 against IDI-driven adaptive switching. 95% confidence intervals computed via paired bootstrap with 10,000 resamples (`bootstrap_ci.py`).
+
+| Model | Metric | Fixed | Adaptive | Reduction | 95% CI |
+|---|---|---|---|---|---|
+| LLaMA-4-Scout-17B | IDI@h6 | 1.000 | 0.491 | **50.9%** | (37.2%, 64.0%) |
+| LLaMA-4-Scout-17B | Hallucination | 0.997 | 0.637 | **36.1%** | (27.7%, 44.3%) |
+| Qwen3-32B | IDI@h6 | 1.000 | 0.523 | **47.7%** | (34.0%, 61.3%) |
+| Qwen3-32B | Hallucination | 0.991 | 0.601 | **39.3%** | (29.2%, 49.8%) |
+| GPT-OSS-120B | IDI@h6 | 0.960 | 0.843 | **12.2%** | (4.6%, 21.0%) |
+| GPT-OSS-120B | Hallucination | 0.997 | 0.867 | **13.0%** | (5.3%, 22.1%) |
+
+All six effects are statistically significant at the 95% level (paired bootstrap, n=50 per model). The smaller effect on GPT-OSS-120B is consistent with a ceiling effect: its fixed-pipeline IDI starts at 0.960 vs ~1.000 for the smaller models, leaving less headroom for adaptive recovery.
+
+### Key observations
+
+- **Adaptive switching reduces information decay across all three models**, with point estimates ranging from 12% to 51% depending on model.
+- **Fixed pipelines exhibit near-complete information loss by hop 6** on HotpotQA distractor — IDI ≈ 1.0 for the smaller models. The decay story on this benchmark is closer to "rapid early collapse" than "gradual decay."
+- **Adaptive pipelines produce non-monotonic IDI curves** (R² near zero or negative when fitting exponential decay), confirming that switching actively interrupts decay rather than slowing it uniformly.
+- **Hallucination rate tracks information decay** — both metrics improve together under adaptive switching, suggesting gains come from better retrieval grounding rather than independent generation effects.
 
 ---
 
+## Limitations
+
+We document the following limitations for transparency:
+
+- **Sample size.** n=50 questions per model per condition. Effect sizes are large and all 95% CIs exclude zero, but a more rigorous study would use 200+ questions.
+- **Hallucination metric is a proxy.** We measure retrieval-grounded hallucination via keyword overlap between output claims and retrieved documents. This catches unsupported claims but mislabels paraphrased correct answers (e.g., "City of Light" for "Paris"). A semantic-similarity or LLM-as-judge variant would be more rigorous.
+- **Functional form not compared.** We fit only an exponential decay model. Linear, power-law, and logarithmic alternatives were not evaluated.
+- **Threshold selection is heuristic.** θ = 0.15 was grid-searched over three values, not learned.
+- **Model selection was API-constrained.** Three models were chosen primarily based on Groq free-tier availability. Post-hoc, they span three organisations and three parameter scales (17B, 32B, 120B), but selection was not a priori principled.
+- **Generalisability untested.** All questions are hard multi-hop HotpotQA distractor; behaviour on simpler retrieval pipelines or other benchmarks is not characterised.
+
+---
